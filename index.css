@@ -14,8 +14,7 @@ body{
     color: antiquewhite;
     align-items: center;
     color: antiquewhite;
-    align-items: center;
-    border: 4px;
-    border-radius: 2px;
+    border: 10px;
+    border-radius: 10px;
     border-color: rgb(55, 24, 128);
 }
