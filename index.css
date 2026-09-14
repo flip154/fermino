@@ -1,9 +1,16 @@
-.container{
+body{
+    margin: 0;
+    width: 350px;
     background-color: black;
+}
+
+.container{
+    background-color: rgb(25, 27, 172);
     font-family: sans-serif;
     color: antiquewhite;
     align-items: center;
     font-family: sans-serif;
     color: antiquewhite;
     align-items: center;
+    wid
 }
