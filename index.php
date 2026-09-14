@@ -20,9 +20,12 @@
     }
     ?>
     <html>
+        <div class="container">
+            
         <h1>nome: <?= $nome ?></h1>
         <p>idade: <?= $idade ?></p>
         <p>voce é <?= $resultado ?> de idade</p>
+        </div>
     </html>
 </body>
 </html>
