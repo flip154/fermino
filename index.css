@@ -10,8 +10,6 @@ body{
 
 .container{
     background-color: rgb(25, 27, 172);
-    padding: 3px;
-    width: 5px;
     font-family: sans-serif;
     color: antiquewhite;
     align-items: center;
@@ -19,4 +17,5 @@ body{
     border: 10px;
     border-radius: 10px;
     border-color: rgb(55, 24, 128);
+    gap: 5px;
 }
