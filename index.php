@@ -7,8 +7,12 @@
 </head>
 <body>
     <?php
-    $nome = "Fermino";
-    echo "<h1> oi, $nome! </h1>";
+    $nome="Fermino";
+    $idade=18;
     ?>
+    <html>
+        <h1>nome: <?= $nome ?></h1>
+        <p>idade: <?= $idade ?></p>
+    </html>
 </body>
 </html>
