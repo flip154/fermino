@@ -5,6 +5,7 @@ body{
     background-color: black;
     align-content: center;
     align-items: center;
+    font-family: sans-serif;
 }
 
 .container{
@@ -12,10 +13,9 @@ body{
     font-family: sans-serif;
     color: antiquewhite;
     align-items: center;
-    font-family: sans-serif;
     color: antiquewhite;
     align-items: center;
     border: 4px;
     border-radius: 2px;
-    border-color: aqua;
+    border-color: rgb(55, 24, 128);
 }
