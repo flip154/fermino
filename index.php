@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
     <?php
     $nome="Fermino";
     $idade=18;
+    $resultado = "";
+
     if($idade >= 18){
-    echo "Maior de idade";
+        $resultado = "maior";
     }
     else{
-        echo "Menor de idade";
+        $resultado = "menor";
     }
     ?>
     <html>
-        <h1><?= $nome ?>$</h1>
+        <h1>nome: <?= $nome ?></h1>
         <p>idade: <?= $idade ?></p>
-        <p></p>
+        <p>voce é <?= $resultado ?> de idade</p>
     </html>
 </body>
 </html>
