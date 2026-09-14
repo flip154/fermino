@@ -3,6 +3,8 @@ body{
     padding: 0%;
     width: 350px;
     background-color: black;
+    align-content: center;
+    align-items: center;
 }
 
 .container{
@@ -13,5 +15,7 @@ body{
     font-family: sans-serif;
     color: antiquewhite;
     align-items: center;
-
+    border: 4px;
+    border-radius: 2px;
+    border-color: aqua;
 }
