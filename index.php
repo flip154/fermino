@@ -1,4 +1,26 @@
-<!DOCTYPE html>
+<?php
+         $nome = "";
+         $idade = 0;
+         $resultado = "";
+    
+        if($_SERVER["REQUEST_METHOD"]=="post"){
+            $nome = $_POST["nome"];
+            $idade = $_POST["idade"];
+
+            if($idade >= 18){
+                $resultado = "maior";
+            }
+            else if($idade <= 0){
+                $resultado = "idade invalida";
+            }
+            else{
+            $resultado = "menor";
+            }
+        }
+
+
+    ?>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,25 +29,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-         $_SERVER;
-         $nome = "$_POST[nome]";
-         $idade = "$_POST[idade]";
-         $resultado = "";
-    
-        if($_SERVER["REQUEST_METHOD"]=="post"){
-        }
 
-        if($idade >= 18){
-            $resultado = "maior";
-        }
-        else if($idade <= 0){
-            $resultado = "idade invalida";
-     }
-     else{
-        $resultado = "menor";
-     }
-    ?>
     <html>
         <div class="container" >
             <form method="POST">
@@ -33,9 +37,11 @@
                 <input type="number" id="idade" name="idade" required>
                 <button type="submit">enviar</button>
             </form>
-                <h1>nome: <?= $nome ?></h1>
-                <p>idade: <?= $idade ?></p>
-                <p> <?= $resultado ?></p>
+            <?php if($resultado != ""){ ?>
+            
+                echo "olá $nome, você tem $idade e é $resultado"
+            
+            <?php } ?>
         </div>
     </html>
 </body>
