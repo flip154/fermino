@@ -35,7 +35,9 @@
             </form>
             <?php if($resultado != ""){ ?>
             
-                <p>olá <?= $nome ?>, você tem <?=  $idade?> e é <?=  $resultado?></p>
+                <h2>olá <?= $nome ?>, 
+                você tem <?=  $idade?>
+                 e é <?=  $resultado?></h2>
             
             <?php } ?>
             </div>
