@@ -8,9 +8,10 @@
 </head>
 <body>
     <?php
-    $nome="Fermino";
-    $idade=18;
+    $nome = "";
+    $idade = "";
     $resultado = "";
+    
 
     if($idade >= 18){
         $resultado = "maior";
@@ -21,10 +22,13 @@
     ?>
     <html>
         <div class="container">
-            
-        <h1>nome: <?= $nome ?></h1>
-        <p>idade: <?= $idade ?></p>
-        <p>voce é <?= $resultado ?> de idade</p>
+            <form action="Get/Post" method="get">
+                <input type="text" id="nome" name="idade">
+                <input type="number" id="idade" name="idade">
+            </form>
+            <h1>nome: <?= $nome ?></h1>
+            <p>idade: <?= $idade ?></p>
+            <p>voce é <?= $resultado ?> de idade</p>
         </div>
     </html>
 </body>
