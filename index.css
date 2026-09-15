@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +9,11 @@ body{
 }
 
 .container{
-    background-color: rgb(244, 244, 247);
+    background-color: rgb(25, 25, 83);
     width: 350px;
     padding: 40px;
     text-align: center;
+    border: 10px;
+    border-radius: 10;
+    border-color: blueviolet;
 }
