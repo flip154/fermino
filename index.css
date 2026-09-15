@@ -14,7 +14,6 @@ body{
     width: 350px;
     padding: 40px;
     text-align: center;
-    border: 10px;
     border-radius: 10px;
-    border-color: blueviolet;
+    border-color: rgb(255, 255, 255);
 }
