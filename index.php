@@ -9,7 +9,7 @@
 <body>
     <?php
     $nome = "";
-    $idade = "";
+    $idade = 0;
     $resultado = "";
     
 
