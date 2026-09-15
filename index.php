@@ -32,7 +32,7 @@
             </form>
             <h1>nome: <?= $nome ?></h1>
             <p>idade: <?= $idade ?></p>
-            <p>voce é <?= $resultado ?> de idade</p>
+            <p>voce é <?= $resultado ?></p>
         </div>
     </html>
 </body>
