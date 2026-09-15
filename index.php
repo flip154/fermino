@@ -8,10 +8,12 @@
 </head>
 <body>
     <?php
+    $_SERVER;
     $nome = "";
     $idade = 0;
     $resultado = "";
     
+    if($_SERVER["REQUEST_METHOD"]=="post"){}
 
     if($idade >= 18){
         $resultado = "maior";
@@ -30,9 +32,9 @@
                 <input type="number" id="idade" name="idade" required>
                 <button type="submit">enviar</button>
             </form>
-            <h1>nome: <?= $nome ?></h1>
-            <p>idade: <?= $idade ?></p>
-            <p> <?= $resultado ?></p>
+                <h1>nome: <?= $nome ?></h1>
+                <p>idade: <?= $idade ?></p>
+                <p> <?= $resultado ?></p>
         </div>
     </html>
 </body>
