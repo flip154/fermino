@@ -19,11 +19,14 @@
     else{
         $resultado = "menor";
     }
+    else if(idade <= 0){
+        $resultado = "idade invalida"
+    }
     ?>
     <html>
         <div class="container">
             <form action="Get/Post" method="get">
-                <input type="text" id="nome" name="idade">
+                <input type="text" id="nome" name="idade" required>
                 <input type="number" id="idade" name="idade">
             </form>
             <h1>nome: <?= $nome ?></h1>
