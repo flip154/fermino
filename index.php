@@ -9,11 +9,12 @@
 <body>
     <?php
     $_SERVER;
-    $nome = "";
-    $idade = 0;
+    $nome = "$_POST[nome]";
+    $idade = "$_POST[idade]";
     $resultado = "";
     
-    if($_SERVER["REQUEST_METHOD"]=="post"){}
+    if($_SERVER["REQUEST_METHOD"]=="post"){
+    }
 
     if($idade >= 18){
         $resultado = "maior";
