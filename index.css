@@ -10,10 +10,11 @@ body{
 
 .container{
     background-color: rgb(25, 25, 83);
+    color: aliceblue;
     width: 350px;
     padding: 40px;
     text-align: center;
     border: 10px;
-    border-radius: 10;
+    border-radius: 10px;
     border-color: blueviolet;
 }
