@@ -3,8 +3,8 @@ body{
     padding: 0;
     width: 350px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     background-color: black;
 }
 
