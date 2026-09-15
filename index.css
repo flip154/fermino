@@ -10,6 +10,9 @@ body{
 
 .container{
     background-color: rgb(25, 27, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: antiquewhite;
 
 }
