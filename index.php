@@ -16,11 +16,11 @@
     if($idade >= 18){
         $resultado = "maior";
     }
+    else if($idade <= 0){
+        $resultado = "idade invalida";
+    }
     else{
         $resultado = "menor";
-    }
-    elseif(idade <= 0){
-        $resultado = "idade invalida";
     }
     ?>
     <html>
