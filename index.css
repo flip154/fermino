@@ -6,13 +6,15 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
+
+    height: 240vh;
 }
 
 .container{
     background-color: rgb(25, 27, 172);
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: antiquewhite;
-
+  
 }
