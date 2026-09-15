@@ -24,8 +24,8 @@
     }
     ?>
     <html>
-        <div class="container">
-            <form action="Get/Post" method="get">
+        <div class="container" >
+            <form method="POST">
                 <input type="text" id="nome" name="nome" required>
                 <input type="number" id="idade" name="idade" required>
                 <button type="submit">enviar</button>
