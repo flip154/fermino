@@ -19,7 +19,7 @@
     else{
         $resultado = "menor";
     }
-    else if(idade <= 0){
+    elseif(idade <= 0){
         $resultado = "idade invalida";
     }
     ?>
