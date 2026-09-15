@@ -13,18 +13,18 @@
     $idade = "$_POST[idade]";
     $resultado = "";
     
-    if($_SERVER["REQUEST_METHOD"]=="post"){
-    }
+     if($_SERVER["REQUEST_METHOD"]=="post"){
+     }
 
-    if($idade >= 18){
+         if($idade >= 18){
         $resultado = "maior";
-    }
-    else if($idade <= 0){
+         }
+     else if($idade <= 0){
         $resultado = "idade invalida";
-    }
-    else{
+     }
+     else{
         $resultado = "menor";
-    }
+     }
     ?>
     <html>
         <div class="container" >
