@@ -3,7 +3,7 @@
          $idade = 0;
          $resultado = "";
     
-        if($_SERVER["REQUEST_METHOD"]=="post"){
+        if($_SERVER["REQUEST_METHOD"]=="POST"){
             $nome = $_POST["nome"];
             $idade = $_POST["idade"];
 
@@ -27,8 +27,6 @@
             <title>Document</title>
         </head>
         <body>
-
-        <html>
             <div class="container" >
             <form method="POST">
                 <input type="text" id="nome" name="nome" required>
@@ -37,7 +35,7 @@
             </form>
             <?php if($resultado != ""){ ?>
             
-                <p>olá <?$nome?>, você tem <?$idade?> e é <?$resultado?></p>
+                <p>olá <?= $nome ?>, você tem <?=  $idade?> e é <?=  $resultado?></p>
             
             <?php } ?>
             </div>
