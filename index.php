@@ -8,19 +8,19 @@
 </head>
 <body>
     <?php
-    $_SERVER;
-    $nome = "$_POST[nome]";
-    $idade = "$_POST[idade]";
-    $resultado = "";
+         $_SERVER;
+         $nome = "$_POST[nome]";
+         $idade = "$_POST[idade]";
+         $resultado = "";
     
-     if($_SERVER["REQUEST_METHOD"]=="post"){
-     }
+        if($_SERVER["REQUEST_METHOD"]=="post"){
+        }
 
-         if($idade >= 18){
-        $resultado = "maior";
-         }
-     else if($idade <= 0){
-        $resultado = "idade invalida";
+        if($idade >= 18){
+            $resultado = "maior";
+        }
+        else if($idade <= 0){
+            $resultado = "idade invalida";
      }
      else{
         $resultado = "menor";
