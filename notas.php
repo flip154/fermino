@@ -59,6 +59,7 @@
                 <input type="number" id="nota3" name="nota3" required>
                 <input type="number" id="nota4" name="nota4" required>
                 <input type="number" id="nota5" name="nota5" required>
+                <p></p>
                 <button type="submit">Enviar Formulario</button>
             </form>
             <?php if($media != ""){ ?>
