@@ -18,7 +18,7 @@
          $resultado_total = 0;
          $soma_peso = 0;
          $media = 0;
-         $nota_final = $media;
+         $nota_final = 0;
 
     
         if($_SERVER["REQUEST_METHOD"]=="POST"){
@@ -39,11 +39,12 @@
         $resultado_total = $resultado1 + $resultado2 + $resultado3 + $resultado4 + $resultado5;
         $soma_peso = $peso1 + $peso2 + $peso3 + $peso1 + $peso3;
         $media = $resultado_total / $soma_peso;
+        $nota_final = $resultado_total / $soma_peso;
 
-        if($media >= 70){
+        if($nota_final >= 70){
             $media = "Aprovado";
         }
-        elseif($media >= 50 and 70){
+        elseif($nota_final >= 50 and 70){
             $media = "Recuperação";
         }
         else{
