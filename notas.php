@@ -40,13 +40,13 @@
         $media = $resultado_total / $soma_peso;
 
         if($media >= 70){
-            $media = "aprovado";
+            $media = "Aprovado";
         }
         elseif($media >= 50 and 70){
-            $media = "reprovado";
+            $media = "Recuperação";
         }
         else{
-
+            $media = "Reprovado";
         }
 ?>
     <!DOCTYPE html>
@@ -74,7 +74,7 @@
             
                 <h2><?= $nome ?>, 
                     <?= $idade ?>,
-                    <?= $media ?></h2>
+                    <?= $media ?></h2
             
             <?php } ?> 
             </div>
