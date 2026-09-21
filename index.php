@@ -31,6 +31,12 @@
             <form method="POST">
                 <input type="text" id="nome" name="nome" required>
                 <input type="number" id="idade" name="idade" required>
+                <input type="text" id="nota1" name="nota1" required>
+                <input type="number" id="nota2" name="nota2" required>
+                <input type="text" id="nota3" name="nota3" required>
+                <input type="number" id="nota4" name="nota4" required>
+                <input type="number" id="peso" name="peso" required>
+
                 <button type="submit">enviar</button>
             </form>
             <?php if($resultado != ""){ ?>
