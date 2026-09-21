@@ -37,7 +37,7 @@
         $nota5 * $peso3 = $resultado5;
         $resultado1 + $resultado2 + $resultado3 + $resultado4 + $resultado5 = $resultado_total;
         $peso1 + $peso2 + $peso3 + $peso1 + $peso3 = $soma_peso;
-        $resultado_total / $soma_peso = $medi a;
+        $resultado_total / $soma_peso = $media;
 
         
 ?>
