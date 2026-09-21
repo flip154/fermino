@@ -29,6 +29,8 @@
             $nota3 = $_GET["nota3"];
             $nota4 = $_GET["nota4"];
             $nota5 = $_GET["nota5"];
+            $nota_final = $_GET["nota_final"];
+            $media = $_GET["media"];
         }
 
         $resultado1 = $nota1 * $peso2;
