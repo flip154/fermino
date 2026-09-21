@@ -36,10 +36,10 @@
             <?php if($resultado != ""){ ?>
             
                 <h2>olá <?= $nome ?>, 
-                você tem <?=  $idade?>
-                 e é <?=  $resultado?></h2>
+                você tem <?=  $idade ?>
+                 e é <?=  $resultado ?></h2>
             
-            <?php } ?>
+            <?php } ?> 
             </div>
         </html>
 
