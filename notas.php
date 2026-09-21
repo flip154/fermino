@@ -8,8 +8,17 @@
          $nota5 = 0;
          $peso1 = 1;
          $peso2 = 2;
-         $peso1 = 3;
+         $peso3 = 3;
          $resultado = "";
+         $resultado1 = 0;
+         $resultado2 = 0;
+         $resultado3 = 0;
+         $resultado4 = 0;
+         $resultado5 = 0;
+         $resultado_total = 0;
+         $soma_peso = 0;
+         $media = 0;
+
     
         if($_SERVER["REQUEST_METHOD"]=="POST"){
             $nome = $_POST["nome"];
@@ -20,6 +29,17 @@
             $nota4 = $_POST["nota4"];
             $nota5 = $_POST["nota5"];
         }
+
+        $nota1 * $peso2 = $resultado1;
+        $nota2 * $peso3 = $resultado2;
+        $nota3 * $peso1 = $resultado3;
+        $nota4 * $peso1 = $resultado4;
+        $nota5 * $peso3 = $resultado5;
+        $resultado1 + $resultado2 + $resultado3 + $resultado4 + $resultado5 = $resultado_total;
+        $peso1 + $peso2 + $peso3 + $peso1 + $peso3 = $soma_peso;
+        $resultado_total / $soma_peso = $media;
+
+        
 ?>
     <!DOCTYPE html>
         <html lang="en">
@@ -43,9 +63,9 @@
             </form>
             <?php if($resultado != ""){ ?>
             
-                <h2> <?= $nome ?>, 
-                 <?= $idade  ?>
-                  <?= $resultado  ?></h2>
+                <h2><?= $nome ?>, 
+                    <?= $idade ?>,
+                    <?= $media ?></h2>
             
             <?php } ?> 
             </div>
