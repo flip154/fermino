@@ -39,7 +39,15 @@
         $soma_peso = $peso1 + $peso2 + $peso3 + $peso1 + $peso3;
         $media = $resultado_total / $soma_peso;
 
-        
+        if($media >= 70){
+            $media = "aprovado";
+        }
+        elseif($media >= 50 and 70){
+            $media = "reprovado";
+        }
+        else{
+
+        }
 ?>
     <!DOCTYPE html>
         <html lang="en">
