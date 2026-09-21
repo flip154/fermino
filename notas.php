@@ -18,6 +18,7 @@
          $resultado_total = 0;
          $soma_peso = 0;
          $media = 0;
+         $nota_final = $media;
 
     
         if($_SERVER["REQUEST_METHOD"]=="POST"){
