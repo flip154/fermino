@@ -46,7 +46,7 @@
         if($nota_final >= 70){
             $media = "Aprovado";
         }
-        elseif($nota_final >= 50 and 70){
+        elseif($nota_final >= 50 and $nota_final < 70){
             $media = "Recuperação";
         }
         else{
@@ -63,7 +63,7 @@
         </head>
         <body>
             <div class="container" >
-            <form method="POST">
+            <form method="GET">
                 <input type="text" id="nome" name="nome" placeholder="NOME" required>
                 <input type="number" id="idade" name="idade" placeholder="IDADE" required>
                 <input type="number" id="nota1" name="nota1" required>
