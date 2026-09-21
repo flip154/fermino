@@ -43,9 +43,9 @@
             </form>
             <?php if($resultado != ""){ ?>
             
-                <h2> <?=  ?>, 
-                 <?=   ?>
-                  <?=   ?></h2>
+                <h2> <?= $nome ?>, 
+                 <?= $idade  ?>
+                  <?= $resultado  ?></h2>
             
             <?php } ?> 
             </div>
