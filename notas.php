@@ -52,8 +52,8 @@
         <body>
             <div class="container" >
             <form method="POST">
-                <input type="text" id="nome" name="nome" required>
-                <input type="number" id="idade" name="idade" required>
+                <input type="text" id="nome" name="nome" placeholder="NOME" required>
+                <input type="number" id="idade" name="idade" placeholder="IDADE" required>
                 <input type="number" id="nota1" name="nota1" required>
                 <input type="number" id="nota2" name="nota2" required>
                 <input type="number" id="nota3" name="nota3" required>
