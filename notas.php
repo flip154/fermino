@@ -73,9 +73,10 @@
             </form>
             <?php if($media != ""){ ?>
             
-                <h2><?= $nome ?>, 
+                <p><?= $nome ?>, 
                     <?= $idade ?>,
-                    <?= $media ?></h2
+                    <?= $nota_final ?>,
+                    <?= $media ?></p>
             
             <?php } ?> 
             </div>
