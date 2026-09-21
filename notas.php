@@ -1,6 +1,14 @@
 <?php
          $nome = "";
          $idade = 0;
+         $nota1 = 0;
+         $nota2 = 0;
+         $nota3 = 0;
+         $nota4 = 0;
+         $nota5 = 0;
+         $peso1 = 1;
+         $peso2 = 2;
+         $peso1 = 3;
          $resultado = "";
     
         if($_SERVER["REQUEST_METHOD"]=="POST"){
@@ -26,7 +34,7 @@
                 <input type="number" id="nota3" name="nota3" required>
                 <input type="number" id="nota4" name="nota4" required>
                 <input type="number" id="nota5" name="nota5" required>
-                <button type="submit">enviar</button>
+                <button type="submit">Enviar Formulario</button>
             </form>
             <?php if($resultado != ""){ ?>
             
