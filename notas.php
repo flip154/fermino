@@ -61,7 +61,7 @@
                 <input type="number" id="nota5" name="nota5" required>
                 <button type="submit">Enviar Formulario</button>
             </form>
-            <?php if($resultado != ""){ ?>
+            <?php if($media != ""){ ?>
             
                 <h2><?= $nome ?>, 
                     <?= $idade ?>,
