@@ -75,15 +75,15 @@
             $media = "Erro ao calcular";
         }
 
-        elseif($nota_final >= 70){
+        elseif($nota_final >= 7){
             $media = "aprovado";
         }
 
-        elseif($nota_final == 100){
+        elseif($nota_final == 10){
             $media = "Aprovado com Excelencia";
         }
 
-        elseif($nota_final >= 50 and $nota_final < 70){
+        elseif($nota_final >= 5 and $nota_final < 7){
             $media = "RECUPERAÇÃO";
         }
         else{
@@ -129,7 +129,7 @@
                 <p></p>
                 <button type="submit">Enviar Formulario</button>
             </form>
-            
+
             <?php if($media != ""){ ?>
             
                 <p>Bem Vindo <?= $nome ?></p>
