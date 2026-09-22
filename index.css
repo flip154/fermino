@@ -8,7 +8,18 @@ body{
     height: 100vh;
 }
 
-.container{
+.formulario{
+    background-color: rgb(55, 0, 100);
+    color: aliceblue;
+    width: 350px;
+    padding: 40px;
+    text-align: center;
+    border: solid 10px;
+    border-radius: 10px;
+    border-color: rgb(56, 31, 119);
+}
+
+.resposta{
     background-color: rgb(55, 0, 100);
     color: aliceblue;
     width: 350px;
