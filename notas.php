@@ -1,25 +1,33 @@
 <?php
          $nome = "";
          $idade = 0;
+
          $nota1 = 0;
          $nota2 = 0;
          $nota3 = 0;
          $nota4 = 0;
          $nota5 = 0;
+
          $peso1 = 1;
          $peso2 = 2;
          $peso3 = 3;
+         $soma_peso = 0;
+
          $resultado1 = 0;
          $resultado2 = 0;
          $resultado3 = 0;
          $resultado4 = 0;
          $resultado5 = 0;
          $resultado_total = 0;
-         $soma_peso = 0;
+
          $requisito_media = 7;
          $media_faltante = 0;
          $media = 0;
          $nota_final = 0;
+
+         $frequencia = 0;
+         $faltas_maximas = 265;
+         $dias_ano = 365;
 
 
         if($_SERVER["REQUEST_METHOD"]=="POST"){
@@ -46,6 +54,8 @@
         $nota_final = $resultado_total / $soma_peso;
 
         $media_faltante = $nota_final - $requisito_media;
+
+        $frequencia = $faltas_maximas - $dias_ano;
         
         if ($nota1 < 0 || $nota2 < 0 || $nota3 < 0 || $nota4 < 0 || $nota5 < 0) {
             echo "Nota Invalida";
