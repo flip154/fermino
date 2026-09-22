@@ -56,7 +56,7 @@
 
         $media_faltante = $nota_final - $requisito_media;
 
-        $frequencia = $presença % $dias_ano;
+        $frequencia = ($dias_ano / 100) * $presença;
         
         if ($nota1 < 0 || $nota2 < 0 || $nota3 < 0 || $nota4 < 0 || $nota5 < 0) {
             echo "Nota Invalida";
