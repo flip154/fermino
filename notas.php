@@ -70,6 +70,8 @@
             $idade = "Idade Invalida";
         }
 
+        elseif($nota_final === $media_faltante){;}
+
 
         if($media <= 0){
             $media = "Erro ao calcular";
@@ -86,6 +88,7 @@
         elseif($nota_final >= 5 and $nota_final < 7){
             $media = "RECUPERAÇÃO";
         }
+
         else{
             $media = "Reprovado";
         }
