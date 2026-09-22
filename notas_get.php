@@ -52,6 +52,10 @@
         else{
             $media = "Reprovado";
         }
+
+        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0){
+            $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
+        }
 ?>
     <!DOCTYPE html>
         <html lang="en">
