@@ -109,7 +109,7 @@
             <title>Document</title>
         </head>
         <body>
-            <div class="container" >
+            <div class="formulario" >
             <form method="POST">
                 <input type="text" id="nome" name="nome" placeholder="NOME" required>
                 <p></p>
@@ -128,7 +128,9 @@
                 <input type="number" id="nota5" name="nota5" placeholder="Dige a 5º Nota" required>
                 <p></p>
                 <button type="submit">Enviar Formulario</button>
+                </div>
             </form>
+            <div class="resposta">
             <?php if($media != ""){ ?>
             
                 <p>Bem Vindo <?= $nome ?></p>
