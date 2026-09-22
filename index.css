@@ -4,28 +4,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(22, 17, 17);
+    background-color: rgb(66, 62, 62);
     height: 100vh;
 }
 
 .formulario{
-    background-color: rgb(55, 0, 100);
+    background-color: rgb(157, 69, 230);
     color: aliceblue;
     width: 350px;
     padding: 40px;
     text-align: center;
     border: solid 10px;
     border-radius: 10px;
-    border-color: rgb(56, 31, 119);
+    border-color: rgb(78, 16, 236);
 }
 
 .resposta{
-    background-color: rgb(55, 0, 100);
+    background-color: rgb(136, 12, 238);
     color: aliceblue;
     width: 350px;
     padding: 40px;
     text-align: center;
     border: solid 10px;
     border-radius: 10px;
-    border-color: rgb(56, 31, 119);
+    border-color: rgb(89, 25, 250);
 }
