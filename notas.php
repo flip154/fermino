@@ -79,7 +79,7 @@
             $media = "aprovado";
         }
 
-        elseif($nota_final == 10){
+        elseif($nota_final = 10){
             $media = "Aprovado com Excelencia";
         }
 
