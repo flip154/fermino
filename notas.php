@@ -109,7 +109,7 @@
             <title>Document</title>
         </head>
         <body>
-            <div class="formulario" >
+            <div class="container" >
             <form method="POST">
                 <input type="text" id="nome" name="nome" placeholder="NOME" required>
                 <p></p>
@@ -130,7 +130,7 @@
                 <button type="submit">Enviar Formulario</button>
                 </div>
             </form>
-            <div class="resposta">
+            <div class="card">
             <?php if($media != ""){ ?>
             
                 <p>Bem Vindo <?= $nome ?></p>

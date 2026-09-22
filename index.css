@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 
-.formulario{
+.container{
     background-color: rgb(157, 69, 230);
     color: aliceblue;
     width: 350px;
