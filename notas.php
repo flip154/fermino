@@ -128,9 +128,8 @@
                 <input type="number" id="nota5" name="nota5" placeholder="Dige a 5º Nota" required>
                 <p></p>
                 <button type="submit">Enviar Formulario</button>
-                </div>
             </form>
-            <div class="card">
+            
             <?php if($media != ""){ ?>
             
                 <p>Bem Vindo <?= $nome ?></p>
