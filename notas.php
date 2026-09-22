@@ -92,7 +92,7 @@
 
 
         if($frequencia >= 273.75 or $frequencia >=91){
-            $frequencia = $frequencia;
+            $frequencia = "Aprovado em Frequência";
         }
         
         else{
