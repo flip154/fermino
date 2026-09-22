@@ -26,9 +26,7 @@
          $nota_final = 0;
 
          $frequencia = 0;
-         $frequencia_falta = 0;
          $presença = 75; 
-         $faltas_maximas = 25;
          $dias_ano = 365;
 
 
@@ -41,7 +39,6 @@
             $nota4 = $_POST["nota4"];
             $nota5 = $_POST["nota5"];
             $frequencia = $_POST["Frequencia"];
-            $frequencia_falta = $_POST["Faltas"];
         }
 
 
@@ -60,7 +57,6 @@
         $media_faltante = $nota_final - $requisito_media;
 
         $frequencia = $presença % $dias_ano;
-        $frequencia_falta = $faltas_maximas % $dias_ano;
         
         if ($nota1 < 0 || $nota2 < 0 || $nota3 < 0 || $nota4 < 0 || $nota5 < 0) {
             echo "Nota Invalida";
@@ -73,6 +69,7 @@
         if($idade <= 0){
             $idade = "Idade Invalida";
         }
+
 
         if($media <= 0){
             $media = "Erro ao calcular";
@@ -93,12 +90,13 @@
             $media = "Reprovado";
         }
 
+
         if($frequencia >= 273.75 or $frequencia >=50){
             $frequencia = "Tranquilo";
         }
         
-        elseif($frequencia_falta >= 91){
-            $frequencia_falta = "Reprovado por Falta";
+        else{
+            $frequencia = "Reprovado por Falta";
         }
 ?>
 
