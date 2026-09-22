@@ -26,7 +26,7 @@
          $nota_final = 0;
 
          $frequencia = 0;
-         $presença = 75; 
+         $presença = 0; 
          $dias_ano = 365;
 
 
@@ -91,7 +91,7 @@
         }
 
 
-        if($frequencia >= 273.75 or $frequencia >=50){
+        if($frequencia >= 273.75 or $frequencia >=91){
             $frequencia = $frequencia;
         }
         
@@ -112,12 +112,19 @@
             <div class="container" >
             <form method="POST">
                 <input type="text" id="nome" name="nome" placeholder="NOME" required>
+                <p></p>
                 <input type="number" id="idade" name="idade" placeholder="IDADE" required>
-                <input type="number" id="nota1" name="nota1" required>
-                <input type="number" id="nota2" name="nota2" required>
-                <input type="number" id="nota3" name="nota3" required>
-                <input type="number" id="nota4" name="nota4" required>
-                <input type="number" id="nota5" name="nota5" required>
+                <p></p>
+                <input type="number" id="presença" name="presença" placeholder="Digite a Frequência do aluno" required>
+                <input type="number" id="nota1" name="nota1" placeholder="Dige a 1º Nota" required>
+                <p></p>
+                <input type="number" id="nota2" name="nota2" placeholder="Dige a 2º Nota" required>
+                <p></p>
+                <input type="number" id="nota3" name="nota3" placeholder="Dige a 3º Nota" required>
+                <p></p>
+                <input type="number" id="nota4" name="nota4" placeholder="Dige a 4º Nota" required>
+                <p></p>
+                <input type="number" id="nota5" name="nota5" placeholder="Dige a 5º Nota" required>
                 <p></p>
                 <button type="submit">Enviar Formulario</button>
             </form>
