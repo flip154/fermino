@@ -92,7 +92,7 @@
 
 
         if($frequencia >= 273.75 or $frequencia >=50){
-            $frequencia = "Tranquilo";
+            $frequencia = $frequencia;
         }
         
         else{
