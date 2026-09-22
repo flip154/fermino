@@ -9,12 +9,12 @@ body{
 }
 
 .container{
-    background-color: rgb(56, 14, 90);
+    background-color: rgb(70, 11, 119);
     color: aliceblue;
     width: 350px;
     padding: 40px;
     text-align: center;
     border: solid 10px;
     border-radius: 10px;
-    border-color: rgb(71, 0, 250);
+    border-color: rgb(35, 0, 124);
 }
