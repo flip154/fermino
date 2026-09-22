@@ -26,6 +26,7 @@
          $nota_final = 0;
 
          $frequencia = 0;
+         $frequencia_falta = 0;
          $presença = 75; 
          $faltas_maximas = 25;
          $dias_ano = 365;
@@ -57,7 +58,7 @@
         $media_faltante = $nota_final - $requisito_media;
 
         $frequencia = $presença % $dias_ano;
-        $frequencia = $faltas_maximas % $dias_ano;
+        $frequencia_falta = $faltas_maximas % $dias_ano;
         
         if ($nota1 < 0 || $nota2 < 0 || $nota3 < 0 || $nota4 < 0 || $nota5 < 0) {
             echo "Nota Invalida";
@@ -86,11 +87,11 @@
             $media = "Reprovado";
         }
 
-        if($frequencia >= 273.75){
-            echo "Tramquilo";
+        if($frequencia >= 273.75 or $frequencia >=50){
+            echo "Tranquilo";
         }
         
-        elseif($frequencia >= 91.25){
+        elseif($frequencia_falta >= 91){
             echo "Reprovado por Falta";
         }
 ?>
