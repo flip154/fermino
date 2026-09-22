@@ -92,7 +92,7 @@
 
 
         if($frequencia >= 273.75 or $frequencia >=91){
-            $frequencia = "Aprovado em Frequência";
+            $frequencia = "Aprovado por Frequência";
         }
         
         else{
@@ -135,9 +135,9 @@
                 <p>Bem Vindo <?= $nome ?></p>
                 <p>Idade <?= $idade ?></p>
                 <p>Sua nota é <?= $nota_final ?></p>
-                <p>Sua média é <?= $media ?></p>
+                <p>Está <?= $media ?> por nota</p>
                 <p>Falta <?= $media_faltante ?> para que seja aprovado</p> 
-                <p>Esta é sua frequência <?= $frequencia ?></p>
+                <p>Está <?= $frequencia ?></p>
             
             <?php } ?> 
             </div>
