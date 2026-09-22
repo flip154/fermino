@@ -50,12 +50,12 @@
 
         
 
-        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0 or $nota1 and $nota2 and $nota3 and $nota4 and $nota5 > 10){
-            $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
+        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0){
+            echo "Nota Invalida";
         }
 
         elseif($nota1 and $nota2 and $nota3 and $nota4 and $nota5 > 10){
-            $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
+           echo "nota invalida";
         }
 
         if($idade <= 0){
