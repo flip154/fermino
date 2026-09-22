@@ -40,6 +40,8 @@
             $nota3 = $_POST["nota3"];
             $nota4 = $_POST["nota4"];
             $nota5 = $_POST["nota5"];
+            $frequencia = $_POST["Frequencia"];
+            $frequencia_falta = $_POST["Faltas"];
         }
 
 
@@ -88,11 +90,11 @@
         }
 
         if($frequencia >= 273.75 or $frequencia >=50){
-            echo "Tranquilo";
+            $frequencia = "Tranquilo";
         }
         
         elseif($frequencia_falta >= 91){
-            echo "Reprovado por Falta";
+            $frequencia_falta = "Reprovado por Falta";
         }
 ?>
 
@@ -123,7 +125,9 @@
                     <?= $idade ?>,
                     <?= $nota_final ?>,
                     <?= $media ?>,
-                    <?= $media_faltante ?> </p>
+                    <?= $media_faltante ?> 
+                    <?= $frequencia ?>,
+                    <?= $frequencia_falta ?></p>
             
             <?php } ?> 
             </div>
