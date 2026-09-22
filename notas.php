@@ -126,9 +126,9 @@
                 <p>Bem Vindo <?= $nome ?></p>
                 <p>Idade <?= $idade ?></p>
                 <p>Sua nota é <?= $nota_final ?></p>
-                <p>Sua média é<?= $media ?></p>
+                <p>Sua média é <?= $media ?></p>
                 <p>Falta <?= $media_faltante ?> para que seja aprovado</p> 
-                <p>Estas é sua frequência<?= $frequencia ?></p>
+                <p>Esta é sua frequência <?= $frequencia ?></p>
             
             <?php } ?> 
             </div>
