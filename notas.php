@@ -50,7 +50,7 @@
 
         
 
-        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0){
+        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0 or $nota1 and $nota2 and $nota3 and $nota4 and $nota5 > 10){
             $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
         }
 
@@ -63,7 +63,7 @@
         }
 
         if($nota_final >= 70){
-            $media = "Aprovado";
+            $media = "aprovado";
         }
 
         elseif($nota_final == 100){
@@ -71,7 +71,7 @@
         }
 
         elseif($nota_final >= 50 and $nota_final < 70){
-            $media = "Recuperação";
+            $media = "RECUPERAÇÃO";
         }
         else{
             $media = "Reprovado";
