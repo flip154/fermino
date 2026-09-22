@@ -21,7 +21,7 @@
          $media = 0;
          $nota_final = 0;
 
-    
+
         if($_SERVER["REQUEST_METHOD"]=="POST"){
             $nome = $_POST["nome"];
             $idade = $_POST["idade"];
@@ -31,6 +31,7 @@
             $nota4 = $_POST["nota4"];
             $nota5 = $_POST["nota5"];
         }
+
 
         $resultado1 = $nota1 * $peso2;
         $resultado2 = $nota2 * $peso3;
@@ -46,12 +47,12 @@
 
         $media_faltante = $nota_final - $requisito_media;
         
-        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0){
+        if ($nota1 < 0 || $nota2 < 0 || $nota3 < 0 || $nota4 < 0 || $nota5 < 0) {
             echo "Nota Invalida";
         }
 
-        elseif($nota1 and $nota2 and $nota3 and $nota4 and $nota5 > 10){
-           echo "nota invalida";
+        elseif($nota1 > 10 || $nota2 > 10 || $nota3 > 10 || $nota4 > 10 || $nota5 > 10) {
+            echo "Nota Invalida";
         }
 
         if($idade <= 0){
