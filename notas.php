@@ -74,7 +74,11 @@
             $idade = "Idade Invalida";
         }
 
-        if($nota_final >= 70){
+        if($media <= 0){
+            $media = "Erro ao calcular";
+        }
+
+        elseif($nota_final >= 70){
             $media = "aprovado";
         }
 
