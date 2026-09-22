@@ -4,12 +4,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(26, 26, 26, 0.726);
+    background-color: rgba(26, 26, 26, 0.87);
     height: 100vh;
 }
 
 .container{
-    background-color: rgb(25, 25, 83);
+    background-color: rgb(20, 78, 43);
     color: aliceblue;
     width: 350px;
     padding: 40px;
