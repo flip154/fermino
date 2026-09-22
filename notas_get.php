@@ -38,22 +38,12 @@
         $resultado3 =$nota3 * $peso1;
         $resultado4 = $nota4 * $peso1;
         $resultado5 = $nota5 * $peso3;
+        
         $resultado_total = $resultado1 + $resultado2 + $resultado3 + $resultado4 + $resultado5;
         $soma_peso = $peso1 + $peso2 + $peso3 + $peso1 + $peso3;
+
         $media = $resultado_total / $soma_peso;
         $nota_final = $resultado_total / $soma_peso;
-
-        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0){
-            $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
-        }
-
-        elseif($nota1 and $nota2 and $nota3 and $nota4 and $nota5 > 10){
-            $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
-        }
-
-        if($idade <= 0){
-            $idade = "Idade Invalida";
-        }
 
         if($nota_final >= 70){
             $media = "Aprovado";
