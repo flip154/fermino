@@ -17,6 +17,8 @@
          $resultado5 = 0;
          $resultado_total = 0;
          $soma_peso = 0;
+         $requisito_media = 7;
+         $media_faltante = 0;
          $media = 0;
          $nota_final = 0;
 
@@ -42,6 +44,9 @@
 
         $media = $resultado_total / $soma_peso;
         $nota_final = $resultado_total / $soma_peso;
+
+        $media_faltante = $nota_final - $requisito_media;
+
 
         
 
@@ -98,7 +103,8 @@
                 <p><?= $nome ?>, 
                     <?= $idade ?>,
                     <?= $nota_final ?>,
-                    <?= $media ?></p>
+                    <?= $media ?>
+                    <?= $media_faltante ?> </p>
             
             <?php } ?> 
             </div>
