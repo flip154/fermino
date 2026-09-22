@@ -116,6 +116,7 @@
                 <input type="number" id="idade" name="idade" placeholder="IDADE" required>
                 <p></p>
                 <input type="number" id="presença" name="presença" placeholder="Digite a Frequência do aluno" required>
+                <p></p>
                 <input type="number" id="nota1" name="nota1" placeholder="Dige a 1º Nota" required>
                 <p></p>
                 <input type="number" id="nota2" name="nota2" placeholder="Dige a 2º Nota" required>
