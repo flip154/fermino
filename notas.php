@@ -9,7 +9,6 @@
          $peso1 = 1;
          $peso2 = 2;
          $peso3 = 3;
-         $resultado = "";
          $resultado1 = 0;
          $resultado2 = 0;
          $resultado3 = 0;
@@ -46,10 +45,7 @@
         $nota_final = $resultado_total / $soma_peso;
 
         $media_faltante = $nota_final - $requisito_media;
-
-
         
-
         if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0){
             echo "Nota Invalida";
         }
@@ -77,6 +73,7 @@
             $media = "Reprovado";
         }
 ?>
+
     <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -103,7 +100,7 @@
                 <p><?= $nome ?>, 
                     <?= $idade ?>,
                     <?= $nota_final ?>,
-                    <?= $media ?>
+                    <?= $media ?>,
                     <?= $media_faltante ?> </p>
             
             <?php } ?> 

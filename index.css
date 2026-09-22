@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(26, 26, 26, 0.726);
     height: 100vh;
 }
 
@@ -16,5 +16,5 @@ body{
     text-align: center;
     border: solid 10px;
     border-radius: 10px;
-    border-color: rgb(105, 41, 255);
+    border-color: rgb(35, 131, 16);
 }
