@@ -4,17 +4,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(26, 26, 26, 0.87);
+    background-color: rgb(22, 17, 17);
     height: 100vh;
 }
 
 .container{
-    background-color: rgb(20, 78, 43);
+    background-color: rgb(73, 17, 119);
     color: aliceblue;
     width: 350px;
     padding: 40px;
     text-align: center;
     border: solid 10px;
     border-radius: 10px;
-    border-color: rgb(35, 131, 16);
+    border-color: rgb(43, 4, 184);
 }
