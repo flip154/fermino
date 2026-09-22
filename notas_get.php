@@ -43,6 +43,18 @@
         $media = $resultado_total / $soma_peso;
         $nota_final = $resultado_total / $soma_peso;
 
+        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0){
+            $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
+        }
+
+        elseif($nota1 and $nota2 and $nota3 and $nota4 and $nota5 > 10){
+            $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
+        }
+
+        if($idade <= 0){
+            $idade = "Idade Invalida";
+        }
+
         if($nota_final >= 70){
             $media = "Aprovado";
         }
@@ -53,9 +65,7 @@
             $media = "Reprovado";
         }
 
-        if($nota1 and $nota2 and $nota3 and $nota4 and $nota5 < 0){
-            $nota1 and $nota2 and $nota3 and $nota4 and $nota5 = "nota invalida";
-        }
+
 ?>
     <!DOCTYPE html>
         <html lang="en">
