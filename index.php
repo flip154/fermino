@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="idade.php">Identificador de idade</a>
-    <a href="notas.php">Notas</a>
-    <a href="notas_get.php">Notas vGet</a>
+    <a href="idade.php"> Identificador de idade </a>
+    <a href="notas.php"> Notas </a>
+    <a href="notas_get.php"> Notas vGet </a>
 </body>
 </html>
