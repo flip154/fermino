@@ -8,6 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container" >
+        <form method="POST">
+            <input type="text" id="usuario" name="usuario" required>
+            <input type="number" id="senha" name="senha" required>
+            <button type="submit">enviar</button>
+        </form>
+    </div>
 </body>
 </html>
