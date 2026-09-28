@@ -41,7 +41,7 @@ else{
         <?php ?>
             
         <h2>
-            olá <?= $user ?>, 
+            <?= $user ?>, 
             <?=  $senha ?>
         </h2>
         
