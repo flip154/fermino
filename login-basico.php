@@ -45,13 +45,11 @@ else{
         </form>
 
         <?php ?>
-            
+
         <h2>
-           
             <?= $user ?>, 
             <p></p>
             <?=  $senha ?>
-            
         </h2>
         
         <?php ?> 
