@@ -1,4 +1,25 @@
-<?php ?>
+<?php 
+
+$user = "administrador";
+$senha = 12345;
+
+
+if($user != "administrador"){
+    $user = "Usuario errado, tente novamente";
+}
+else{
+    $user = "Usuario correto";
+}
+
+if($senha != 12345){
+    $user = "Senha errada, tente novamente";
+}
+else{
+    $user = "Senha correta";
+}
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,9 +31,11 @@
 <body>
     <div class="container" >
         <form method="POST">
-            <input type="text" id="usuario" name="usuario" required>
+            <input type="text" id="user" name="user" required>
+            <p></p>
             <input type="number" id="senha" name="senha" required>
-            <button type="submit">enviar</button>
+            <p></p>
+            <button type="submit">Entrar</button>
         </form>
     </div>
 </body>
