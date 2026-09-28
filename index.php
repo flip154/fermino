@@ -10,5 +10,6 @@
     <a href="idade.php"> Identificador de idade </a>
     <a href="notas.php"> Notas </a>
     <a href="login-basico.php"> LOGIN </a>
+    <a href="notas_get.php"> Notas </a>
 </body>
 </html>
