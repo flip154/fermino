@@ -12,10 +12,10 @@ else{
 }
 
 if($senha != 12345){
-    $user = "Senha incorreta, tente novamente";
+    $senha = "Senha incorreta, tente novamente";
 }
 else{
-    $user = "Senha correta";
+    $senha = "Senha correta";
 }
 
 
