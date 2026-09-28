@@ -38,14 +38,14 @@ else{
             <button type="submit">Entrar</button>
         </form>
 
-        <?php if($resultado != ""){ ?>
+        <?php ?>
             
         <h2>
             olá <?= $user ?>, 
             <?=  $senha ?>
         </h2>
         
-        <?php } ?> 
+        <?php ?> 
 
     </div>
 </body>
