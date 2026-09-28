@@ -4,8 +4,8 @@ $user = "administrador";
 $senha = 12345;
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $nome = $_POST["user"];
-    $idade = $_POST["senha"];
+    $user = $_POST["user"];
+    $senha = $_POST["senha"];
 }
 
 
