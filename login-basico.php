@@ -47,8 +47,10 @@ else{
         <?php ?>
             
         <h2>
+            <p>
             <?= $user ?>, 
             <?=  $senha ?>
+            </p>
         </h2>
         
         <?php ?> 
