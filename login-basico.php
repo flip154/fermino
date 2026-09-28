@@ -3,6 +3,11 @@
 $user = "administrador";
 $senha = 12345;
 
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+    $nome = $_POST["user"];
+    $idade = $_POST["senha"];
+}
+
 
 if($user != "administrador"){
     $user = "Usuario incorreto, tente novamente";
