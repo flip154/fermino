@@ -5,14 +5,14 @@ $senha = 12345;
 
 
 if($user != "administrador"){
-    $user = "Usuario errado, tente novamente";
+    $user = "Usuario incorreto, tente novamente";
 }
 else{
     $user = "Usuario correto";
 }
 
 if($senha != 12345){
-    $user = "Senha errada, tente novamente";
+    $user = "Senha incorreta, tente novamente";
 }
 else{
     $user = "Senha correta";
@@ -37,6 +37,16 @@ else{
             <p></p>
             <button type="submit">Entrar</button>
         </form>
+
+        <?php if($resultado != ""){ ?>
+            
+        <h2>
+            olá <?= $user ?>, 
+            <?=  $senha ?>
+        </h2>
+        
+        <?php } ?> 
+
     </div>
 </body>
 </html>
