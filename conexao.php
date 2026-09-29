@@ -9,7 +9,7 @@ $senha = "315!@#";
 // PDO = PHP Data Objects - É uma ferramenta do PHP para conversar com banco de dados.
 
 try{
-    $pdo = new PDO ("mysql: host = $host");
+    $pdo = new PDO ("mysql: host = $host;dbname");
 } 
 
 catch (){
