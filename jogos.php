@@ -2,14 +2,14 @@
 
 require "conexao.php";
 
-echo "DEBUG1";
+echo "DEBUG1 ";
 
 $jogo = $_POST[""];
 $genero = $_POST[""];
 $ano_lancamento = $_POST[""];
 $nota = $_POST[""];
 
-echo "DEBUG2";
+echo "DEBUG2 ";
 
 $sql = "CREATE TABLE IF NOT EXISTS games (
     id INT AUTO_INCREMENT PRIMARY KEY, 
@@ -19,7 +19,7 @@ $sql = "CREATE TABLE IF NOT EXISTS games (
     
     echo "<br>Tabela criada com sucesso";
 
-    echo "DEBUG3";
+    echo "DEBUG3 ";
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     $jogo = $_POST["jogo"];
@@ -32,11 +32,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
     $pdo->exec($sql);
 
-    echo "DEBUG4";
+    echo "DEBUG4 ";
 
     echo "<br>Jogo cadastrado com sucesso";
 
-    echo "DEBUG5";
+    echo "DEBUG5 ";
 }
 
 ?>
