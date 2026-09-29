@@ -28,7 +28,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $nota = $_POST["nota"];
    
 
-    $sql1 = "INSERT INTO games (jogo, genero, ano_lancamento, nota);
+    $sql1 = "INSERT INTO games (jogo, genero, ano_lancamento, nota)
     VALUES ('$jogo','$genero',$ano_lancamento,$nota)";
 
     echo "DEBUG4 ";
