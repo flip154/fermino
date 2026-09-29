@@ -2,7 +2,7 @@
 
     require "conexao.php";
 
-    echo "<br>meu sistema está conectado";
+    // echo "<br>meu sistema está conectado";
 
     $sql = "CREATE TABLE IF NOT EXISTS teste (
     id INT AUTO_INCREMENT PRIMARY KEY, 
