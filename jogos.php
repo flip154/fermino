@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
    
 
     $sql = "INSERT INTO games (jogo, genero, ano_lançamento, nota);
-    VALUES ($jogo, $genero, $nota, $ano_lancamento)";
+    VALUES ('$jogo','$genero',$ano_lancamento,$nota)";
 
     $pdo->exec($sql);
 
