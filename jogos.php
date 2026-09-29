@@ -1,5 +1,7 @@
 <?php 
 
+require "conexao.php";
+
 $jogo = $_POST[""];
 $genero = $_POST[""];
 $ano_lancamento = $_POST[""];
@@ -11,8 +13,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $nota = $_POST["nota"];
     $nota = $_POST["ano_lancamento"];
 }
-
-require "conexao.php";
 
 // echo "<br>meu sistema está conectado";
 
@@ -34,7 +34,7 @@ echo "<br>Jogo cadastrado com sucesso";
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
