@@ -13,7 +13,7 @@ echo "DEBUG2 ";
 
 $sql = "CREATE TABLE IF NOT EXISTS games (
     id INT AUTO_INCREMENT PRIMARY KEY, 
-    jogo VARCHAR (100), genero VARCHAR, (50) ano_lancamento INT, nota INT)";
+    jogo VARCHAR(100), genero VARCHAR(50), ano_lancamento INT, nota INT)";
     
     $pdo->exec($sql);
     
