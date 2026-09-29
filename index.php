@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
     require "conexao.php";
 
@@ -12,7 +12,7 @@
 
     echo "<br>Tabela criada com sucesso";
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
