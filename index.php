@@ -23,9 +23,13 @@
     <title>Document</title>
 </head>
 <body>
+    <p></p>
     <a href="idade.php"> Identificador de idade </a>
+    <p></p>
     <a href="notas.php"> Notas </a>
+    <p></p>
     <a href="login-basico.php"> LOGIN </a>
+    <p></p>
     <a href="notas_get.php"> Notas </a>
 </body>
 </html>
