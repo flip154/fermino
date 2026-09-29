@@ -31,5 +31,6 @@
     <a href="login-basico.php"> LOGIN </a>
     <p></p>
     <a href="notas_get.php"> Notas </a>
+    <a href="jogos.php"> Notas </a>
 </body>
 </html>
