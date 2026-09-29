@@ -36,7 +36,9 @@
             <?php if($resultado != ""){ ?>
             
                 <h2>olá <?= $nome ?>, 
+                <p></p>
                 você tem <?=  $idade ?>
+                <p></p>
                  e é <?=  $resultado ?></h2>
             
             <?php } ?> 
