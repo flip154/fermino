@@ -28,12 +28,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $nota = $_POST["nota"];
    
 
-    $sql = "INSERT INTO games (jogo, genero, ano_lançamento, nota);
+    $sql1 = "INSERT INTO games (jogo, genero, ano_lançamento, nota);
     VALUES ('$jogo','$genero',$ano_lancamento,$nota)";
+
     echo "DEBUG4 ";
-    $pdo->exec($sql);
 
-
+    $pdo->exec($sql1);
 
     echo "<br>Jogo cadastrado com sucesso";
 
