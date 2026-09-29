@@ -23,14 +23,10 @@
     <title>Document</title>
 </head>
 <body>
-    <p></p>
     <a href="idade.php"> Identificador de idade </a>
-    <p></p>
     <a href="notas.php"> Notas </a>
-    <p></p>
-    <a href="login-basico.php"> LOGIN </a>
-    <p></p>
+    <a href="login-basico.php"> Login </a>
     <a href="notas_get.php"> Notas </a>
-    <a href="jogos.php"> Notas </a>
+    <a href="jogos.php"> Jogos </a>
 </body>
 </html>
