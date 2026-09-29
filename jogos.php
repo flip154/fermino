@@ -30,10 +30,10 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
     $sql = "INSERT INTO games (jogo, genero, ano_lançamento, nota);
     VALUES ('$jogo','$genero',$ano_lancamento,$nota)";
-
+    echo "DEBUG4 ";
     $pdo->exec($sql);
 
-    echo "DEBUG4 ";
+
 
     echo "<br>Jogo cadastrado com sucesso";
 
