@@ -23,11 +23,12 @@ $sql = "CREATE TABLE IF NOT EXISTS games (
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     $jogo = $_POST["jogo"];
-    $nota = $_POST["nota"];
-    $nota = $_POST["nota"];
+    $genero = $_POST["genero"];
     $ano_lancamento = $_POST["ano_lancamento"];
+    $nota = $_POST["nota"];
+   
 
-    $sql = "INSERT INTO games (jogo, genero, nota);
+    $sql = "INSERT INTO games (jogo, genero, ano_lançamento, nota);
     VALUES ($jogo, $genero, $nota, $ano_lancamento)";
 
     $pdo->exec($sql);
