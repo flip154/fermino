@@ -2,34 +2,43 @@
 
 require "conexao.php";
 
+echo "DEBUG1";
+
 $jogo = $_POST[""];
 $genero = $_POST[""];
 $ano_lancamento = $_POST[""];
 $nota = $_POST[""];
 
-if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $jogo = $_POST["jogo"];
-    $nota = $_POST["genero"];
-    $nota = $_POST["nota"];
-    $nota = $_POST["ano_lancamento"];
-}
-
-// echo "<br>meu sistema está conectado";
+echo "DEBUG2";
 
 $sql = "CREATE TABLE IF NOT EXISTS games (
-id INT AUTO_INCREMENT PRIMARY KEY, 
-jogo VARCHAR (100), genero VARCHAR, (50) ano_lancamento INT, nota INT)";
+    id INT AUTO_INCREMENT PRIMARY KEY, 
+    jogo VARCHAR (100), genero VARCHAR, (50) ano_lancamento INT, nota INT)";
+    
+    $pdo->exec($sql);
+    
+    echo "<br>Tabela criada com sucesso";
 
-$pdo->exec($sql);
+    echo "DEBUG3";
 
-echo "<br>Tabela criada com sucesso";
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+    $jogo = $_POST["jogo"];
+    $nota = $_POST["nota"];
+    $nota = $_POST["nota"];
+    $ano_lancamento = $_POST["ano_lancamento"];
 
-$sql = "INSERT INTO games (jogo, genero, nota);
-VALUES ($jogo, $genero, $nota, $ano_lancamento)";
+    $sql = "INSERT INTO games (jogo, genero, nota);
+    VALUES ($jogo, $genero, $nota, $ano_lancamento)";
 
-$pdo->exec($sql);
+    $pdo->exec($sql);
 
-echo "<br>Jogo cadastrado com sucesso";
+    echo "DEBUG4";
+
+    echo "<br>Jogo cadastrado com sucesso";
+    echo "<br>Tabela criada com sucesso";
+
+    echo "DEBUG5";
+}
 
 ?>
 
