@@ -35,7 +35,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     echo "DEBUG4";
 
     echo "<br>Jogo cadastrado com sucesso";
-    echo "<br>Tabela criada com sucesso";
 
     echo "DEBUG5";
 }
