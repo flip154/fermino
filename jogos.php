@@ -18,15 +18,14 @@ $sql = "CREATE TABLE IF NOT EXISTS games (
     echo "DEBUG1";
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $id = $_POST["id"];
     $jogo = $_POST["jogo"];
     $genero = $_POST["genero"];
     $nota = $_POST["nota"];
    
     echo "DEBUG2";
 
-    $sql1 = "INSERT INTO games (id, jogo, genero, nota)
-    VALUES ($id, '$jogo','$genero',$nota)";
+    $sql1 = "INSERT INTO games (jogo, genero, nota)
+    VALUES ('$jogo','$genero',$nota)";
 
     echo "DEBUG3";
 
@@ -40,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 }
 
 //busca todos os registros no banco de dados
-$buscar = "SELECT*FROM games";
+$buscar = "SELECT * FROM games";
 
 //exec() = executa algo quando você não precisa receber registros de volta
 //query() = executa uma consulta quando você quer receber dados de volta
