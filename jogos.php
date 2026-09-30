@@ -71,8 +71,7 @@ $jogo = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <p></p>
             <button type="submit">Cadastrar</button>
         </form>
-    </div>
-    <div class="card">
+        
         <h2>Jogos cadastrados</h2>
 
         <table>
