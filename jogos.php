@@ -7,6 +7,8 @@ $jogo = $_POST[""];
 $genero = $_POST[""];
 $nota = $_POST[""];
 
+echo "DEBUG0";
+
 $sql = "CREATE TABLE IF NOT EXISTS games (
     id INT AUTO_INCREMENT PRIMARY KEY, 
     id_jogo INT, jogo VARCHAR(100), genero VARCHAR(50), nota INT)";
@@ -15,17 +17,26 @@ $sql = "CREATE TABLE IF NOT EXISTS games (
     
     echo "<br>Tabela criada com sucesso";
 
+    echo "DEBUG1";
+
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     $id = $_POST["id_jogo"];
     $jogo = $_POST["jogo"];
     $genero = $_POST["genero"];
     $nota = $_POST["nota"];
    
+    echo "DEBUG2";
 
     $sql1 = "INSERT INTO games (id_jogo, jogo, genero, nota)
-    VALUES ($id_jogo, '$jogo','$genero',$ano_lancamento,$nota)";
+    VALUES ($id_jogo, '$jogo','$genero',$nota)";
+
+echo "DEBUG3";
+
 
     $pdo->exec($sql1);
+
+    echo "DEBUG4";
+
 
     echo "<br>Jogo cadastrado com sucesso";
 }
@@ -60,10 +71,12 @@ $jogo = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <p></p>
             <button type="submit">Cadastrar</button>
         </form>
-
+    </div>
+    <div>
         <h2>Jogos cadastrados</h2>
 
         <table>
+
             <tr>
                 <th>ID</th>
                 <th>Nome</th>
