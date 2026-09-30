@@ -18,7 +18,7 @@ $sql = "CREATE TABLE IF NOT EXISTS games (
     echo "DEBUG1";
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $id_jogo = $_POST["id"];
+    $id = $_POST["id"];
     $jogo = $_POST["jogo"];
     $genero = $_POST["genero"];
     $nota = $_POST["nota"];
