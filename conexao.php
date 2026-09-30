@@ -13,6 +13,7 @@ try{
     // -> serve para puxar algo que não pertence aquele a objeto
     //PDO::ATR_ERRMODE - serve para configurar o modo de erros do PDO
     //PDO::ERRMODE_EXCEPTION - serve para quando um erro ocorrer, ele seja transformado em execução
+    
     $pdo->setAttribute(
         PDO::ATTR_ERRMODE,
         PDO::ERRMODE_EXCEPTION
