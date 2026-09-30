@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require "conexao.php";
 
@@ -10,18 +10,18 @@ $nota = $_POST[""];
 $sql = "CREATE TABLE IF NOT EXISTS games (
     id INT AUTO_INCREMENT PRIMARY KEY, 
     id INT, jogo VARCHAR(100), genero VARCHAR(50), nota INT)";
-    
-    $pdo->exec($sql);
-    
-    echo "<br>Tabela criada com sucesso";
 
-    echo "DEBUG1";
+$pdo->exec($sql);
 
-if($_SERVER["REQUEST_METHOD"]=="POST"){
+echo "<br>Tabela criada com sucesso";
+
+echo "DEBUG1";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $jogo = $_POST["jogo"];
     $genero = $_POST["genero"];
     $nota = $_POST["nota"];
-   
+
     echo "DEBUG2";
 
     $sql1 = "INSERT INTO games (jogo, genero, nota)
@@ -51,14 +51,16 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Jogos</title>
 </head>
+
 <body>
-    <div class="container" >
+    <div class="container">
         <form method="POST">
             <input type="text" id="jogo" name="jogo" required>
             <p></p>
@@ -81,15 +83,16 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </tr>
 
             <!-- foreach() -> Para cada item  nessa lista, faça alguma coisa com X variavel  -->
-            <?php foreach($jogos as $jogo){?>
-
-                <td><?= $jogo["id"] ?></td>
-                <td><?= $jogo["nome"] ?></td>
-                <td><?= $jogo["genero"] ?></td>
-                <td><?= $jogo["nota"] ?></td>
-
-            <?php } ?> 
+            <?php foreach ($jogos as $jogo) { ?>
+                <tr>
+                    <td><?= $jogo["id"] ?></td>
+                    <td><?= $jogo["jogo"] ?></td>
+                    <td><?= $jogo["genero"] ?></td>
+                    <td><?= $jogo["nota"] ?></td>
+                </tr>
+            <?php } ?>
         </table>
     </div>
 </body>
+
 </html>
