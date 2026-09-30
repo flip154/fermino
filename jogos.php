@@ -5,26 +5,24 @@ require "conexao.php";
 $id = $_POST[""];
 $jogo = $_POST[""];
 $genero = $_POST[""];
-$ano_lancamento = $_POST[""];
 $nota = $_POST[""];
 
 $sql = "CREATE TABLE IF NOT EXISTS games (
     id INT AUTO_INCREMENT PRIMARY KEY, 
-    id INT, jogo VARCHAR(100), genero VARCHAR(50), ano_lancamento INT, nota INT)";
+    id INT, jogo VARCHAR(100), genero VARCHAR(50), nota INT)";
     
     $pdo->exec($sql);
     
     echo "<br>Tabela criada com sucesso";
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $id = $_POST[""];
+    $id = $_POST["id"];
     $jogo = $_POST["jogo"];
     $genero = $_POST["genero"];
-    $ano_lancamento = $_POST["ano_lancamento"];
     $nota = $_POST["nota"];
    
 
-    $sql1 = "INSERT INTO games (id, jogo, genero, ano_lancamento, nota)
+    $sql1 = "INSERT INTO games (id, jogo, genero, nota)
     VALUES ($id, '$jogo','$genero',$ano_lancamento,$nota)";
 
     $pdo->exec($sql1);
@@ -60,21 +58,20 @@ $jogo = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <p></p>
             <input type="text" id="genero" name="genero" required>
             <p></p>
-            <input type="number" id="ano_lancamento" name="ano_lancamento" required>
-            <p></p>
+            <!-- <input type="number" id="ano_lancamento" name="ano_lancamento" required>
+            <p></p> -->
             <input type="number" id="nota" name="nota" required>
             <p></p>
             <button type="submit">Cadastrar</button>
         </form>
 
         <h2>Jogos cadastrados</h2>
-        
+
         <table>
             <tr>
                 <th>ID</th>
                 <th>Nome</th>
                 <th>Genêro</th>
-                <th>Ano de Lançamento</th>
                 <th>Nota</th>
             </tr>
 
@@ -84,7 +81,6 @@ $jogo = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <td><?= $jogo["id"] ?></td>
                 <td><?= $jogo["nome"] ?></td>
                 <td><?= $jogo["genero"] ?></td>
-                <td><?= $jogo["ano_lancamento"] ?></td>
                 <td><?= $jogo["nota"] ?></td>
 
             <?php } ?> 
