@@ -19,3 +19,7 @@ body{
     border-radius: 10px;
     border-color: rgb(50, 6, 131);
 }
+
+#id_jogo{
+    border-radius: 100px;
+}
