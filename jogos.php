@@ -28,7 +28,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $sql1 = "INSERT INTO games (id, jogo, genero, nota)
     VALUES ($id, '$jogo','$genero',$nota)";
 
-echo "DEBUG3";
+    echo "DEBUG3";
 
 
     $pdo->exec($sql1);
@@ -46,7 +46,7 @@ $buscar = "SELECT*FROM games";
 //query() = executa uma consulta quando você quer receber dados de volta
 $stmt = $pdo->query($buscar);
 
-$jogo = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 
@@ -82,7 +82,7 @@ $jogo = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </tr>
 
             <!-- foreach() -> Para cada item  nessa lista, faça alguma coisa com X variavel  -->
-            <?php foreach($jogo as $jogo){?>
+            <?php foreach($jogos as $jogo){?>
 
                 <td><?= $jogo["id"] ?></td>
                 <td><?= $jogo["nome"] ?></td>
