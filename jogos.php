@@ -2,14 +2,14 @@
 
 require "conexao.php";
 
-$id_jogo = $_POST[""];
+$id = $_POST[""];
 $jogo = $_POST[""];
 $genero = $_POST[""];
 $nota = $_POST[""];
 
 $sql = "CREATE TABLE IF NOT EXISTS games (
     id INT AUTO_INCREMENT PRIMARY KEY, 
-    id_jogo INT, jogo VARCHAR(100), genero VARCHAR(50), nota INT)";
+    id INT, jogo VARCHAR(100), genero VARCHAR(50), nota INT)";
     
     $pdo->exec($sql);
     
@@ -18,15 +18,15 @@ $sql = "CREATE TABLE IF NOT EXISTS games (
     echo "DEBUG1";
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $id_jogo = $_POST["id_jogo"];
+    $id_jogo = $_POST["id"];
     $jogo = $_POST["jogo"];
     $genero = $_POST["genero"];
     $nota = $_POST["nota"];
    
     echo "DEBUG2";
 
-    $sql1 = "INSERT INTO games (id_jogo, jogo, genero, nota)
-    VALUES ($id_jogo, '$jogo','$genero',$nota)";
+    $sql1 = "INSERT INTO games (id, jogo, genero, nota)
+    VALUES ($id, '$jogo','$genero',$nota)";
 
 echo "DEBUG3";
 
@@ -84,7 +84,7 @@ $jogo = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <!-- foreach() -> Para cada item  nessa lista, faça alguma coisa com X variavel  -->
             <?php foreach($jogo as $jogo){?>
 
-                <td><?= $jogo["id_jogo"] ?></td>
+                <td><?= $jogo["id"] ?></td>
                 <td><?= $jogo["nome"] ?></td>
                 <td><?= $jogo["genero"] ?></td>
                 <td><?= $jogo["nota"] ?></td>
