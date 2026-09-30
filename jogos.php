@@ -76,11 +76,11 @@ $jogo = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <!-- foreach() -> Para cada item  nessa lista, faça alguma coisa com X variavel  -->
             <?php foreach($jogo as $jogo){?>
 
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                td
+                <td><?= $jogo["id"] ?></td>
+                <td><?= $jogo["nome"] ?></td>
+                <td><?= $jogo["genero"] ?></td>
+                <td><?= $jogo["ano_lancamento"] ?></td>
+                <td><?= $jogo["nota"] ?></td>
 
             <?php } ?> 
         </table>
