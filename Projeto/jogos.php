@@ -1,6 +1,6 @@
 <?php
 
-require "conexao.php";
+require __DIR__ . "/conexao.php";
 
 $senha = !416*134;
 $id = $_POST[""];
@@ -47,7 +47,7 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="atv.css">
+    <link rel="stylesheet" href="css/jogos.css">
     <title>Jogos</title>
 </head>
 
