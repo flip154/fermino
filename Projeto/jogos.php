@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . "/conexao.php";
+require __DIR__ . "/../conexao.php";
 
 $senha = !416*134;
 $id = $_POST[""];

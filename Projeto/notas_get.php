@@ -1,7 +1,5 @@
 <?php
 
-    require __DIR__ . "/conexao.php";
-
          $nome = "";
          $idade = 0;
          $nota1 = 0;

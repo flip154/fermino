@@ -1,7 +1,5 @@
 <?php 
 
-require __DIR__ . "/conexao.php";
-
 $user = "administrador";
 $senha = 12345;
 
