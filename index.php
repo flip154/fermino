@@ -19,10 +19,40 @@
             </ul>
         </nav>
     </header>
-    <a href="Projeto/idade.php"> Identificador de idade </a>
-    <a href="Projeto/notas.php"> Notas </a>
-    <a href="Projeto/login-basico.php"> Login </a>
-    <a href="Projeto/notas_get.php"> Notas </a>
-    <a href="Projeto/jogos.php"> Jogos </a>
+    <main>
+        <section id="inicio" class="inicio">
+            <div class="inicio-conteudo">
+                <p class="saudacao">Olá, eu sou </p>
+                <h1>Felipe Fermino</h1>
+                <h2>Desenvolvedor em Formação</h2>
+                <p></p>
+                <a href="#projetos" class="botao">
+                    Ver meus Projetos
+                </a>
+            </div>
+        </section>
+
+        <section id="sobre" class="secao">
+            <h2 class="titulo-secao">Sobre Mim</h2>
+            <div class="foto">
+                JS
+            </div>
+            <div class="sobre-texto">
+                <h3>Quem sou eu?</h3>
+                <p>
+                    Me chamo Felipe Fermino sou 
+                    estudante de desenvolvimento de sistemas.
+                </p>
+                <p>
+                    Atualmente estou estudando sobre PHP, HTML e CSS. Este portifolio reune 
+                    alguns dos meus projetos que desenvolvi durante o curso de desenvolvimento de sistemas.
+                </p>
+                <p>
+                    Meu objetivo é seguir evoluindo como desenvolvedor,
+                    além de aprender novas tecnologias.
+                </p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
