@@ -175,11 +175,30 @@
                         <a href="projetos/login-basico.php" class="link-projeto">
                             Ver Projeto:
                         </a>
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="contato" class=" secao secao-destaque">
+            <h2 class="titulo-secao"></h2>
+                <p class="subtitulo-secao">
+                    Entre em contato comigo
+                </p>
+                <div class="contato-container">
+                    <div class="contato-item">
+                        <h3>Github</h3>
+                        <p></p>
+                    </div>
+                </div>
+        </section>
     </main>
+    
+    <footer>
+            <p>
+                Desenvolvido por: <a href="https://felipef315.devlook.xyz/">Felipe Fermino</a> 2026
+            </p>
+        </footer>
 </body>
 </html>
