@@ -53,6 +53,26 @@
                 </p>
             </div>
         </section>
+
+        <section id="habilidades" class="secao secao-destaque">
+            <h2 class="titulo-secao">Minhas Habilidades</h2>
+            <p class="subtitulo-secao">
+                Algumas tecnologias que estou estudando:
+            </p>
+            <div class="lista-habilidades">
+                <div class="habilidades">
+                    HTML
+                </div>
+                <div class="habilidades">
+                    CSS
+                </div>
+                <div class="habilidades">
+                    PHP
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="secao"></section>
     </main>
 </body>
 </html>
