@@ -78,7 +78,7 @@
                 Alguns peojetos desenvolvidos durante as aulas: 
             </p>
             <div class="peojetos-container">
-                <div class="projeto-card2">
+                <div class="projeto-card">
                     <div class="projeto-numero">
                         01
                     </div>
@@ -98,7 +98,7 @@
                     </div>
 
                     <div class="peojetos-container">
-                        <div class="projeto-card">
+                        <div class="projeto-card2">
                         <div class="projeto-numero">
                             02
                         </div>
