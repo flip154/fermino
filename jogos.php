@@ -49,18 +49,6 @@ $stmt = $pdo->query($buscar);
 $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
-if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $senha = $_POST["senha"];
-}
-
-if($senha != !416*134){
-    $senha = "Senha incorreta, tente novamente";
-}
-else{
-    $senha = "Senha correta";
-}
-
-
 ?>
 
 <!DOCTYPE html>
@@ -74,45 +62,36 @@ else{
 </head>
 
 <body>
-    <div class="container">
-        <form method="POST">
-            <input type="number" id="senha" name="senha" required>
-            <p></p>
-            <button type="submit">Entrar</button>
-        </form>
-
-
-        <form method="POST">
-            <input type="text" id="jogo" name="jogo" required>
-            <p></p>
-            <input type="text" id="genero" name="genero" required>
-            <p></p>
-            <input type="number" id="nota" name="nota" required>
-            <p></p>
-            <button type="submit">Cadastrar</button>
-        </form>
-
+    <form method="POST">
+        <input type="text" id="jogo" name="jogo" required>
+        <p></p>
+        <input type="text" id="genero" name="genero" required>
+        <p></p>
+        <input type="number" id="nota" name="nota" required>
+        <p></p>
+        <button type="submit">Cadastrar</button>
+    </form>
 
         <h2>Jogos cadastrados</h2>
 
-        <table>
+    <table>
 
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Genêro</th>
+            <th>Nota</th>
+        </tr>
+
+        <!-- foreach() -> Para cada item  nessa lista, faça alguma coisa com X variavel  -->
+        <?php foreach ($jogos as $jogo) { ?>
             <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Genêro</th>
-                <th>Nota</th>
+                <td><?= $jogo["id"] ?></td>
+                <td><?= $jogo["jogo"] ?></td>
+                <td><?= $jogo["genero"] ?></td>
+                <td><?= $jogo["nota"] ?></td>
             </tr>
-
-            <!-- foreach() -> Para cada item  nessa lista, faça alguma coisa com X variavel  -->
-            <?php foreach ($jogos as $jogo) { ?>
-                <tr>
-                    <td><?= $jogo["id"] ?></td>
-                    <td><?= $jogo["jogo"] ?></td>
-                    <td><?= $jogo["genero"] ?></td>
-                    <td><?= $jogo["nota"] ?></td>
-                </tr>
-            <?php } ?>
+        <?php } ?>
         </table>
     </div>
 </body>
