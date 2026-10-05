@@ -71,8 +71,54 @@
                 </div>
             </div>
         </section>
+        
+        <section id="projetos" class="secao">
+        <h2 class="titulo-secao">Minhas Habilidades</h2>
+            <p class="subtitulo-secao">
+                Alguns peojetos desenvolvidos durante as aulas: 
+            </p>
+            <div class="peojetos-container">
+                <div class="projeto-card">
+                    <div class="projeto-numero">
+                        01
+                    </div>
+                    <h3>Verificação de Idade</h3>
+                    <p>
+                        Sistema desenvolvido para praticar
+                        formulários e manipulação de dados.
+                    </p>
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+                    <a href="projetos/idade.php" class="link-projeto">
+                        Ver Projeto:
+                    </a>
+                    </div>
 
-        <section id="projetos" class="secao"></section>
+                    <div class="peojetos-container">
+                        <div class="projeto-card">
+                        <div class="projeto-numero">
+                            02
+                        </div>
+                        <h3>Cadastro de Jogos</h3>
+                        <p>
+                            Sistema desenvolvido para praticar
+                            inserção de dados em banco de dados e manipulação de dados.
+                        </p>
+                        <div class="tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+                        </div>
+                        <a href="projetos/jogos.php" class="link-projeto">
+                        Ver Projeto:
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
