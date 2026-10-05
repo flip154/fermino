@@ -70,7 +70,7 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <input type="number" id="nota" name="nota" required>
         <p></p>
         <button type="submit">Cadastrar</button>
-    </form>
+    
 
         <h2>Jogos cadastrados</h2>
 
@@ -93,6 +93,7 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </tr>
         <?php } ?>
         </table>
+        </form>
     </div>
 </body>
 
