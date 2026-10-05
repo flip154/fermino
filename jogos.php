@@ -16,25 +16,15 @@ $pdo->exec($sql);
 
 echo "<br>Tabela criada com sucesso";
 
-echo "DEBUG1";
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $jogo = $_POST["jogo"];
     $genero = $_POST["genero"];
     $nota = $_POST["nota"];
 
-    echo "DEBUG2";
-
     $sql1 = "INSERT INTO games (jogo, genero, nota)
     VALUES ('$jogo','$genero',$nota)";
 
-    echo "DEBUG3";
-
-
     $pdo->exec($sql1);
-
-    echo "DEBUG4";
-
 
     echo "<br>Jogo cadastrado com sucesso";
 }
