@@ -14,7 +14,7 @@ $sql = "CREATE TABLE IF NOT EXISTS games (
 
 $pdo->exec($sql);
 
-echo "<br>Tabela criada com sucesso";
+// echo "<br>Tabela criada com sucesso";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $jogo = $_POST["jogo"];

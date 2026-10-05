@@ -19,7 +19,7 @@ try{
         PDO::ERRMODE_EXCEPTION
     );
 
-    echo "Conectado com Sucesso!";
+    // echo "Conectado com Sucesso!";
 
 }
 
