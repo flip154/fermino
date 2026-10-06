@@ -38,7 +38,7 @@
         </section>
 
 
-        <section>
+        <section class="conteudo-projeto">
         <form method="POST">
         <input type="text" id="jogo" name="jogo" required>
         <p></p>
@@ -50,7 +50,7 @@
         </form>
         </section>
 
-        <div class="voltar-projetos">
+        <div class="voltar-projeto">
             <a href="../index.php#projetos">Voltar para os Projetos</a>
         </div>
     </main>
