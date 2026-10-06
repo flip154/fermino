@@ -253,3 +253,19 @@ header{
     font-size: 13px;
     font-weight: bold;
 }
+
+
+
+
+
+
+/* LINK DO PROJETO */
+.link-projeto{
+    color: skyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-projeto:hover{
+    text-decoration: underline;
+}
