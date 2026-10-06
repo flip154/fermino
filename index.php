@@ -98,7 +98,7 @@
                     </div>
 
                     <div class="peojetos-container">
-                        <div class="projeto-card2">
+                        <div class="projeto-card">
                         <div class="projeto-numero">
                             02
                         </div>
@@ -118,7 +118,7 @@
                     </div>
 
                     <div class="peojetos-container">
-                        <div class="projeto-card2">
+                        <div class="projeto-card">
                         <div class="projeto-numero">
                             02
                         </div>
@@ -139,7 +139,7 @@
                     </div>
 
                     <div class="peojetos-container">
-                        <div class="projeto-card3">
+                        <div class="projeto-card">
                         <div class="projeto-numero">
                             03
                         </div>
@@ -158,7 +158,7 @@
                         </a>
 
                         <div class="peojetos-container">
-                        <div class="projeto-card4">
+                        <div class="projeto-card">
                         <div class="projeto-numero">
                             04
                         </div>
