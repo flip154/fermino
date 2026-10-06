@@ -172,3 +172,74 @@ header{
     max-width: 100%;
     background-color: aliceblue;
 }
+
+
+
+
+
+/* HABILIDADES */
+.lista-habilidades{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;  
+}
+
+.habilidades{
+    background-color: aliceblue;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+.habilidades:hover{
+    transform: translateY(-3px);
+}
+
+.projetos-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.projeto-card{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+}
+
+.projeto-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.projeto-numero{
+    font-size: 35px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.projeto-card h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.projeto-card p{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* TECNOLOGIAS USADAS */
+.tecnologias{
+    display: flex;
+
+    flex-wrap: wrap;
+}
