@@ -154,8 +154,8 @@ header{
     background-color: rgb(75, 0, 214);
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     font-size: 60px;
     font-weight: bold;
 }
