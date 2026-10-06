@@ -15,6 +15,8 @@ body{
     line-height: 1.6;
 }
 
+
+
 /* MENU CABEÇALHO */
 header{
     background-color: rgb(0, 0, 0);
@@ -54,3 +56,39 @@ header{
 .menu a:hover{
     color: rgb(192, 0, 0);
 }
+
+
+
+/* PAGINA DO PROJETO */
+.pagina-projeto{
+    min-height: calc(100vh - 150px);
+    max-width: 1100px;
+    margin: auto;
+    padding: 6px 20px 80px;
+}
+
+.cabacalho-projeto{
+    margin-bottom: 40px;
+}
+
+.projeto-tipo{
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.cabacalho-projeto h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.cabacalho-projeto > p:not(.projeto-tipo){
+    color:aliceblue;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+/* AREA ATIVIDADE */

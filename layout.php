@@ -24,7 +24,7 @@
     </header>
 
     <main class="pagina-projeto">
-        <section>
+        <section class="cabacalho-projeto">
             <p class="projeto-tipo">
                 Projeto
             </p>
