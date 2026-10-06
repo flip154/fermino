@@ -204,7 +204,7 @@ header{
 }
 
 .projeto-card{
-    background-color: rgb(12, 7, 7);
+    background-color: rgb(5, 2, 24);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 3px 12px rgba(98, 40, 175, 0.904);
@@ -219,7 +219,7 @@ header{
 .projeto-numero{
     font-size: 35px;
     font-weight: bold;
-    color: rgb(13, 26, 146);
+    color: rgb(31, 3, 190);
     margin-bottom: 15px;
 }
 
