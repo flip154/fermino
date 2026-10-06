@@ -140,7 +140,7 @@ header{
 
 .sobre-conteudo{
     display: flex;
-    align-items: right
+    align-items: right;
     text-align: right;
     gap: 50px;
     margin-top: 40px;
