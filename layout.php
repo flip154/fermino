@@ -49,6 +49,14 @@
         <button type="submit">Cadastrar</button>
         </form>
         </section>
+
+        <div class="voltar-projetos">
+            <a href="../index.php#projetos">Voltar para os Projetos</a>
+        </div>
     </main>
+
+    <footer>
+        Desenvolvido por: <a href="https://felipef315.devlook.xyz/">Felipe Fermino</a> 2026
+    </footer>
 </body>
 </html>
