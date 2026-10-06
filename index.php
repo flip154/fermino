@@ -92,7 +92,7 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="projetos/idade.php" class="link-projeto">
+                    <a href="..projetos/idade.php" class="link-projeto">
                         Ver Projeto:
                     </a>
                     </div>
@@ -112,7 +112,7 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="projetos/jogos.php" class="link-projeto">
+                        <a href="..projetos/jogos.php" class="link-projeto">
                         Ver Projeto:
                         </a>
                     </div>
@@ -133,7 +133,7 @@
                             <span>PHP</span>
                             <span>MySQL</span>
                         </div>
-                        <a href="projetos/jogos.php" class="link-projeto">
+                        <a href="..projetos/jogos.php" class="link-projeto">
                             Ver Projeto:
                         </a>
                     </div>
@@ -153,7 +153,7 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="projetos/notas.php" class="link-projeto">
+                        <a href="..projetos/notas.php" class="link-projeto">
                             Ver Projeto:
                         </a>
 
@@ -188,7 +188,7 @@
                 </p>
                 <div class="contato-container">
                     <div class="contato-item">
-                        <h3>Github: <a href=""></a></h3>
+                        <h3>Github: <a href="https://github.com/flip154"></a></h3>
                         <p></p>
                     </div>
                 </div>
