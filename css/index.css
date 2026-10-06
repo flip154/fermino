@@ -140,8 +140,8 @@ header{
 
 .sobre-conteudo{
     display: flex;
-    align-items: center;
-    text-align: center;
+    align-items: right
+    text-align: right;
     gap: 50px;
     margin-top: 40px;
 }
@@ -154,8 +154,8 @@ header{
     background-color: rgb(75, 0, 214);
     color: white;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     font-size: 60px;
     font-weight: bold;
 }
@@ -163,18 +163,18 @@ header{
 .sobre-texto h3{
     font-size: 25px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: right;
 }
 
 .sobre-texto p{
     margin-bottom: 15px;
-    text-align: center;
+    text-align: right;
 }
 
 .secao-destaque{
     max-width: 100%;
     background-color: rgba(5, 2, 31, 0.733);
-    text-align: center;
+    text-align: right;
 }
 
 
