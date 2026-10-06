@@ -141,6 +141,7 @@ header{
 .sobre-conteudo{
     display: flex;
     align-items: center;
+    text-align: center;
     gap: 50px;
     margin-top: 40px;
 }
@@ -162,15 +163,18 @@ header{
 .sobre-texto h3{
     font-size: 25px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .sobre-texto p{
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .secao-destaque{
     max-width: 100%;
     background-color: rgba(5, 2, 31, 0.733);
+    text-align: center;
 }
 
 
