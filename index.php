@@ -188,7 +188,7 @@
                 </p>
                 <div class="contato-container">
                     <div class="contato-item">
-                        <h3>Github: <a href="https://github.com/flip154"></a></h3>
+                        <h3>Github link: <a href="https://github.com/flip154"></a></h3>
                         <p></p>
                     </div>
                 </div>
