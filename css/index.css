@@ -69,7 +69,7 @@ header{
     min-height: 85vh;
     display: flex;
     align-items: center;
-    background-color: rgba(17, 17, 17, 0.712);
+    background-color: rgba(22, 22, 22, 0.712);
     color: white;
 }
 
@@ -106,7 +106,7 @@ header{
     margin-top: 30px;
     padding: 12px 25px;
 
-    background-color: rgb(33, 0, 87);
+    background-color: rgb(50, 0, 129);
     color: aliceblue;
 
     text-decoration: none;
@@ -117,7 +117,7 @@ header{
 }
 
 .botao:hover{
-    background-color: blue;
+    background-color: rgb(55, 0, 255);
 }
 
 .secao{
@@ -150,7 +150,7 @@ header{
     height: 200px;
     min-width: 200px;
     border-radius: 50%;
-    background-color: rgb(76, 0, 255);
+    background-color: rgb(75, 0, 214);
     color: white;
     display: flex;
     justify-content: center;
@@ -170,7 +170,7 @@ header{
 
 .secao-destaque{
     max-width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.733);
 }
 
 
@@ -186,7 +186,7 @@ header{
 }
 
 .habilidades{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(8, 8, 8, 0.877);
     padding: 15px 25px;
     border-radius: 8px;
     font-weight: bold;
@@ -204,7 +204,7 @@ header{
 }
 
 .projeto-card{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(12, 7, 7);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 3px 12px rgba(100, 61, 209, 0.76);
@@ -219,7 +219,7 @@ header{
 .projeto-numero{
     font-size: 35px;
     font-weight: bold;
-    color: rgb(35, 35, 206);
+    color: rgb(13, 26, 146);
     margin-bottom: 15px;
 }
 
@@ -246,7 +246,7 @@ header{
 }
 
 .tecnologias-span{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(14, 14, 14);
     color: blue;
     padding: 5px 10px;
     border-radius: 5px;
@@ -260,7 +260,7 @@ header{
 
 /* LINK DO PROJETO */
 .link-projeto{
-    color: skyblue;
+    color: rgb(112, 81, 252);
     text-decoration: none;
     font-weight: bold;
 }
