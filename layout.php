@@ -22,5 +22,33 @@
             </ul>
         </nav>
     </header>
+
+    <main class="pagina-projeto">
+        <section>
+            <p class="projeto-tipo">
+                Projeto
+            </p>
+            <h1>
+                Cadastro de Jogos
+            </h1>
+            <p>
+                Atividade desenvolvida durante as aulas
+                de Desenvolvimento de Sistemas.
+            </p>
+        </section>
+
+
+        <section>
+        <form method="POST">
+        <input type="text" id="jogo" name="jogo" required>
+        <p></p>
+        <input type="text" id="genero" name="genero" required>
+        <p></p>
+        <input type="number" id="nota" name="nota" min="0" max="10" required>
+        <p></p>
+        <button type="submit">Cadastrar</button>
+        </form>
+        </section>
+    </main>
 </body>
 </html>

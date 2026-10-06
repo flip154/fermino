@@ -57,7 +57,7 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <p></p>
         <input type="text" id="genero" name="genero" required>
         <p></p>
-        <input type="number" id="nota" name="nota" required>
+        <input type="number" id="nota" name="nota" min="0" max="10" required>
         <p></p>
         <button type="submit">Cadastrar</button>
     
