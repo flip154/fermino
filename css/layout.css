@@ -121,9 +121,13 @@ header{
 
 
 /* RODAPÉ */
-footer{
+.footer{
     background-color: black;
     color: aliceblue;
     text-align: center;
     padding: 30p;
+}
+
+.footer a:hover{
+    text-decoration: none;
 }
