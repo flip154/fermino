@@ -186,7 +186,7 @@ header{
 }
 
 .habilidades{
-    background-color: rgba(8, 8, 8, 0.877);
+    background-color: rgba(0, 0, 0, 0.747);
     padding: 15px 25px;
     border-radius: 8px;
     font-weight: bold;
@@ -207,13 +207,13 @@ header{
     background-color: rgb(12, 7, 7);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 3px 12px rgba(100, 61, 209, 0.76);
+    box-shadow: 0px 3px 12px rgba(98, 40, 175, 0.904);
     transition: 0.3s;
 }
 
 .projeto-card:hover{
     transform: translateY(-5px);
-    box-shadow: 0px 8px 20px rgba(120, 37, 197, 0.726);
+    box-shadow: 0px 8px 20px rgba(83, 24, 150, 0.897);
 }
 
 .projeto-numero{
