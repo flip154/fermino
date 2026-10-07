@@ -55,7 +55,8 @@
         <input type="number" name="idade" required>
         <label>Curso: </label>
         <input type="text" name="curso" required>
-    </form>
+        <button type="submit" class="botao"> Cadastrar </button>
+        </form>
 
     <section id="resposta" class="resposta">
         <div class="card-resposta">

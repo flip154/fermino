@@ -32,3 +32,19 @@ body{
     padding: 20px;
 }
 
+.botao{
+    display: inline-block;
+
+    margin-top: 30px;
+    padding: 12px 25px;
+
+    background-color: rgb(29, 0, 156);
+    color: aliceblue;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+}
+
