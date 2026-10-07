@@ -56,15 +56,18 @@
         <input type="text" name="curso" required>
     </form>
 
-    <?php ?>
-
-        <h2>
-            <?= $nome ?> 
-            <p></p>
-            <?=  $idade ?>
-            <p></p>
-            <?=  $curso ?>
-        </h2>
-    <?php ?>
+    <section id="resposta" class="resposta">
+        <div class="card-resposta">
+            <?php ?>
+                <h2>
+                    <?= $nome ?> 
+                    <p></p>
+                     <?=  $idade ?>
+                    <p></p>
+                    <?=  $curso ?>
+                </h2>
+            <?php ?>
+        </div>
+    </section>
 </body>
 </html>
