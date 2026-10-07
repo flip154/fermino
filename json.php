@@ -54,6 +54,7 @@
             );
 
             file_put_contents($caminho, $jsonAtualizado);
+
         }
     }
 
@@ -79,6 +80,16 @@
         <label>Curso: </label>
         <input type="text" name="curso" required>
         <button type="submit" name="acao" value="cadastrar" > Cadastrar </button>
+        </form>
+
+        <form method="post">
+        <label>Nome: </label>
+        <input type="text" name="nome" required>
+        <label>Idade: </label>
+        <input type="number" name="idade" required>
+        <label>Curso: </label>
+        <input type="text" name="curso" required>
+        <button type="submit" name="acao" value="atualizar" > Atualizar </button>
         </form>
 
     <section id="resposta" class="resposta">
