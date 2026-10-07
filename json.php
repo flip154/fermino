@@ -54,14 +54,25 @@
             );
 
             file_put_contents($caminho, $jsonAtualizado);
-            if($acao === "deletar"){
 
-            }
+            if($acao === "deletar"){
+                $nome = $_POST["nome"];
+                    foreach($alunos as $posicao => $aluno){
+                        if($aluno["nome"] === $nome){
+                            unset($alunos[$posicao]);
+                        }
+                    }
+
+                    $alunos = arrauy_values($alunos)
+
+                    }
 
             }
 
         }
+
     }
+}
 
     
 
