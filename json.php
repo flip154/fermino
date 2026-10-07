@@ -27,6 +27,8 @@
     // Salvar os dados no arquivo JSON
     file_put_contents($caminho, $jsonAtualizado);
 
+    echo "Dados Registrados em JSON";
+
 ?>
 
 
