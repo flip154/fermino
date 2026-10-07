@@ -33,7 +33,7 @@
     // Salvar os dados no arquivo JSON
 
     file_put_contents($caminho, $jsonAtualizado);
-        }
+        
 
         if($acao === "atualizar"){
             $nome = $_POST["nome"];
@@ -54,6 +54,11 @@
             );
 
             file_put_contents($caminho, $jsonAtualizado);
+            if($acao === "deletar"){
+
+            }
+
+            }
 
         }
     }
@@ -72,7 +77,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="post">
+    <form method="POST">
         <label>Nome: </label>
         <input type="text" name="nome" required>
         <label>Idade: </label>
@@ -82,7 +87,7 @@
         <button type="submit" name="acao" value="cadastrar" > Cadastrar </button>
         </form>
 
-        <form method="post">
+        <form method="POST">
         <label>Nome: </label>
         <input type="text" name="nome" required>
         <label>Idade: </label>
@@ -90,6 +95,10 @@
         <label>Curso: </label>
         <input type="text" name="curso" required>
         <button type="submit" name="acao" value="atualizar" > Atualizar </button>
+        </form>
+        
+        <form method="POST">
+            <button type="submit" name="acao" value="deletar" > Deletrar </button>
         </form>
 
     <section id="resposta" class="resposta">
