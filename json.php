@@ -15,6 +15,11 @@
         "curso" => "Desenvolvimento de Sistemas"
     ];
 
+    if($_SERVER["REQUEST_METHOD"]=="POST"){
+        $nome = $_POST["nome"];
+        $idade = $_POST["idade"];
+        $curso = $_POST["curso"];
+
     // add o aluno a array 
     $alunos[] = $novoAluno;
 
@@ -25,7 +30,9 @@
     );
 
     // Salvar os dados no arquivo JSON
+
     file_put_contents($caminho, $jsonAtualizado);
+    }
 
     echo "Dados Registrados em JSON";
 
@@ -40,6 +47,24 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form method="post">
+        <label>Nome: </label>
+        <input type="text" name="nome" required>
+        <label>Idade: </label>
+        <input type="number" name="idade" required>
+        <label>Curso: </label>
+        <input type="text" name="curso" required>
+    </form>
+
+    <?php ?>
+
+        <h2>
+            <?= $nome ?> 
+            <p></p>
+            <?=  $idade ?>
+            <p></p>
+            <?=  $curso ?>
+        </h2>
+    <?php ?>
 </body>
 </html>
