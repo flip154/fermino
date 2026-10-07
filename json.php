@@ -9,6 +9,8 @@
     $alunos = json_decode($json, true);
 
     // Criando aluno
+    $acao = $_POST["acao"];
+    if($acao === "cadastrar"){
     $novoAluno = [
         "nome" => $_POST["nome"],
         "idade" => $_POST["idade"],
@@ -30,6 +32,7 @@
     // Salvar os dados no arquivo JSON
 
     file_put_contents($caminho, $jsonAtualizado);
+        }
     }
 
     echo "Dados Registrados em JSON";
@@ -53,9 +56,8 @@
         <input type="number" name="idade" required>
         <label>Curso: </label>
         <input type="text" name="curso" required>
-        <button type="submit" class="botao"> Cadastrar </button>
+        <button type="submit" value="cadastrar" class="botao"> Cadastrar </button>
         </form>
-
 
     <section id="resposta" class="resposta">
         <div class="card-resposta">
