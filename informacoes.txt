@@ -1,0 +1,26 @@
+VETORES / Array sequencial
+alunos [5]
+0 = aluno 0
+0 = aluno 1
+0 = aluno 2
+0 = aluno 3
+0 = aluno 4
+
+
+ARRAY ASSOCIATIVO
+"nome": "Aluno 1",
+"nome": "Aluno 2"
+
+EXEMPLO:
+[
+    {
+        "nome": "Lucas",
+        "idade": 24,
+        "curso": "Dsenvolvedor"
+    }
+]
+
+C = CREATE 
+R = Read
+U = Update
+D = Delete
