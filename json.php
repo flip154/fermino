@@ -10,15 +10,13 @@
 
     // Criando aluno
     $novoAluno = [
-        "nome" => "Felipe",
-        "idade" => 18,
-        "curso" => "Desenvolvimento de Sistemas"
-    ];
+        "nome" => $_POST["nome"],
+        "idade" => $_POST["idade"],
+        "curso" => $_POST["curso"]
+    ];;
 
     if($_SERVER["REQUEST_METHOD"]=="POST"){
-        $nome = $_POST["nome"];
-        $idade = $_POST["idade"];
-        $curso = $_POST["curso"];
+
 
     // add o aluno a array 
     $alunos[] = $novoAluno;
