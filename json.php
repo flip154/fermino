@@ -11,8 +11,8 @@
     // Criando aluno
     $novoAluno = [
         "nome" => "Felipe",
-        "idade" => 18,
-        "curso" => "Desenvolvimento de Sistemas"
+        "idade" => 0,
+        "curso" => ""
     ];
 
     if($_SERVER["REQUEST_METHOD"]=="POST"){
