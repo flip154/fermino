@@ -11,6 +11,7 @@
     // Criando aluno
     $acao = $_POST["acao"];
     if($acao === "cadastrar"){
+
     $novoAluno = [
         "nome" => $_POST["nome"],
         "idade" => $_POST["idade"],
@@ -33,9 +34,30 @@
 
     file_put_contents($caminho, $jsonAtualizado);
         }
+
+        if($acao === "atualizar"){
+            $nome = $_POST["nome"];
+            $novaIdade = $_POST["idade"];
+            $novoCurso = $_POST["curso"];
+
+            foreach($alunos as $posicao => $aluno){
+                if($aluno["nome"] == $nome){
+                    $alunos[$posicao]["idade"] = $novaIdade;
+                    $alunos[$posicao]["curso"] = $novoCurso;
+                }
+
+            }
+
+            $jsonAtualizado = json_encode($alunos,
+                JSON_PRETTY_PRINT |
+                 JSON_UNESCAPED_UNICODE
+            );
+
+            file_put_contents($caminho, $jsonAtualizado);
+        }
     }
 
-    echo "Dados Registrados em JSON";
+    
 
 ?>
 
