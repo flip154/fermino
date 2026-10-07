@@ -63,7 +63,7 @@
                         }
                     }
 
-                    $alunos = arrauy_values($alunos)
+                    $alunos = arrauy_values($alunos);
 
                     }
 
