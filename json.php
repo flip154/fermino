@@ -58,17 +58,15 @@
         <button type="submit" class="botao"> Cadastrar </button>
         </form>
 
+
     <section id="resposta" class="resposta">
         <div class="card-resposta">
-            <?php ?>
-                <h2>
-                    <?= $nome ?> 
-                    <p></p>
-                     <?=  $idade ?>
-                    <p></p>
-                    <?=  $curso ?>
-                </h2>
-            <?php ?>
+        <h2>ALUNOS CADASTRADOS</h2>
+            <?php foreach($alunos as $aluno){?>
+                <h3><?= $aluno["nome"] ?></h3>
+                <p><?= $aluno["idade"] ?></p>
+                <p><?= $aluno["curso"] ?></p>
+            <?php }?>
         </div>
     </section>
 </body>
