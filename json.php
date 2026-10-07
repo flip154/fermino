@@ -1,6 +1,6 @@
 <?php
 
-    $caminho - __DIR__ . "/dados.json";
+    $caminho = __DIR__ . "/dados.json";
 
     // abre e le o arquivo json
     $json = file_get_contents($caminho);
