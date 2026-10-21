@@ -20,10 +20,11 @@
 }
 
     if($_SERVER["REQUEST_METHOD"]=="POST"){
-
-
-    // add o aluno a array 
-    $alunos[] = $novoAluno;
+    
+    if (isset($novoAluno)) {
+        // add o aluno a array 
+        $alunos[] = $novoAluno;
+    }
 
     //  Transformar array em json
     $jsonAtualizado = json_encode($alunos,
