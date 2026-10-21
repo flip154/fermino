@@ -20,10 +20,5 @@
     [$controller, $acao] = $rotas[$rota][$metodo];
 
     // 
-    $controller -> $acao;
-
-
-
-
-
+    $controller -> $acao();
 ?>
