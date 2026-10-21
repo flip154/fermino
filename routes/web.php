@@ -4,16 +4,15 @@
 
     return[
         'GET' =>[
-            'portifolio' => [new HelpdeskController(), 'index'],
+            'portifolio' => [new PortifolioController(), 'index'],
             'helpdesk' => [new HelpdeskController(), 'index'],
-            'jogos' => [new HelpdeskController(), 'jogos'],
-            'login' => [new HelpdeskController(), 'login'],
-            'notas' => [new HelpdeskController(), 'notas'],
-            'idade' => [new HelpdeskController(), 'idade']
+            'jogos' => [],
+            'login' => [],
+            'notas' => [],
+            'idade' => []
         ],
             'POST' => [
-                'helpdesk' => []
-            ]
-            
+                'helpdesk' => [new HelpdeskController, ''],
+        ]
             ];
 ?>

@@ -119,3 +119,5 @@ function contarChamados(): array {
 
     return $relatorio;
 }
+
+?>
