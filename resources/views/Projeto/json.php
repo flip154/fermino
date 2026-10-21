@@ -16,7 +16,8 @@
         "nome" => $_POST["nome"],
         "idade" => $_POST["idade"],
         "curso" => $_POST["curso"]
-    ];;
+    ];
+}
 
     if($_SERVER["REQUEST_METHOD"]=="POST"){
 
@@ -64,7 +65,7 @@
                         }
                     }
 
-                    $alunos = arrauy_values($alunos);
+                    $alunos = array_values($alunos);
 
                     }
 
