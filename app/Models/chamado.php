@@ -1,7 +1,7 @@
 <?php 
 
     class Chamado{
-        function listarChamados(): array {
+        public function listarChamados(): array {
             $arquivo = __DIR__ . '/chamados.json';
         
             if (!file_exists($arquivo)) {
@@ -22,7 +22,7 @@
             return $chamados;
         }
         
-        function salvarChamados(array $chamados): bool {
+        public function salvarChamados(array $chamados): bool {
             $arquivo = __DIR__ . '/chamados.json';
             $dados = json_encode($chamados, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
         
@@ -34,7 +34,7 @@
         }
         
         
-        function cadastrarChamado(string $nome, string $setor, string $equipamento, string $descricao, string $prioridade): bool {
+        public function cadastrarChamado(string $nome, string $setor, string $equipamento, string $descricao, string $prioridade): bool {
             if (trim($nome) == '' || trim($descricao) == '') {
                 return false;
             }
@@ -66,7 +66,7 @@
             return salvarChamados($chamados);
         }
         
-        function atualizarChamado(int $numero, string $novoStatus): bool {
+         public function atualizarChamado(int $numero, string $novoStatus): bool {
             $chamados = listarChamados();
         
             if (!isset($chamados[$numero])) {
@@ -81,7 +81,7 @@
             return salvarChamados($chamados);
         }
         
-        function excluirChamado(int $numero): bool {
+        public function excluirChamado(int $numero): bool {
             $chamados = listarChamados();
         
             if (!isset($chamados[$numero])) {
@@ -96,7 +96,7 @@
             return salvarChamados($chamados);
         }
         
-        function contarChamados(): array {
+        public function contarChamados(): array {
             $chamados = listarChamados();
         
             $relatorio = [
