@@ -1,5 +1,4 @@
 <?php 
-
     class Chamado{
         public function listarChamados(): array {
             $arquivo = __DIR__ . '/chamados.json';
@@ -51,7 +50,7 @@
                 return false;
             }
         
-            $chamados = listarChamados();
+            $chamados = $this->listarChamados();
         
             $novoChamado = [
                 'nome' => $nome,
@@ -63,11 +62,11 @@
             ];
         
             $chamados[] = $novoChamado;
-            return salvarChamados($chamados);
+            return $this-> salvarChamados($chamados);
         }
         
          public function atualizarChamado(int $numero, string $novoStatus): bool {
-            $chamados = listarChamados();
+            $chamados = $this-> listarChamados();
         
             if (!isset($chamados[$numero])) {
                 return false;
@@ -78,11 +77,11 @@
             }
         
             $chamados[$numero]['status'] = $novoStatus;
-            return salvarChamados($chamados);
+            return $this-> salvarChamados($chamados);
         }
         
         public function excluirChamado(int $numero): bool {
-            $chamados = listarChamados();
+            $chamados = $this-> listarChamados();
         
             if (!isset($chamados[$numero])) {
                 return false;
@@ -93,11 +92,11 @@
             //att a  lista  de chamados em array
             $chamados = array_values($chamados);
             // salvar os chamados novamente pela funçao salvarchamados
-            return salvarChamados($chamados);
+            return $this-> salvarChamados($chamados);
         }
         
         public function contarChamados(): array {
-            $chamados = listarChamados();
+            $chamados = $this-> listarChamados();
         
             $relatorio = [
                 'total' => count($chamados),
