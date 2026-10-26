@@ -102,7 +102,8 @@
                         <div class="projeto-numero">
                             02
                         </div>
-                        <h3>Cadastro de Jogos</h3>
+
+                        <h3>Login Básico</h3>
                         <p>
                             Sistema desenvolvido para praticar
                             inserção de dados em banco de dados e manipulação de dados.
@@ -112,7 +113,7 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="../Projeto/jogos.php" class="link-projeto">
+                        <a href="../resources/views/Projeto/login-basico.php" class="link-projeto">
                         Ver Projeto:
                         </a>
                     </div>
@@ -122,7 +123,7 @@
                         <div class="projeto-numero">
                             02
                         </div>
-                        <h3>Cadastro de Jogos</h3>
+                        <h3>Teste Json</h3>
                         <p>
                             Sistema desenvolvido para praticar
                             inserção de dados em banco de dados e manipulação de dados.
@@ -133,7 +134,7 @@
                             <span>PHP</span>
                             <span>MySQL</span>
                         </div>
-                        <a href="../Projeto/jogos.php" class="link-projeto">
+                        <a href="../resources/views/Projeto/json.php" class="link-projeto">
                             Ver Projeto:
                         </a>
                     </div>
@@ -156,25 +157,7 @@
                         <a href="../Projeto/notas.php" class="link-projeto">
                             Ver Projeto:
                         </a>
-
-                        <div class="peojetos-container">
-                        <div class="projeto-card">
-                        <div class="projeto-numero">
-                            04
                         </div>
-                        <h3>Cadastro de Jogos</h3>
-                        <p>
-                            Sistema desenvolvido para entender como o servidor 
-                            manipula dados, além de um treino de lógica.
-                        </p>
-                        <div class="tecnologias">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>PHP</span>
-                        </div>
-                        <a href="../Projeto/login-basico.php" class="link-projeto">
-                            Ver Projeto:
-                        </a>
                         </div>
                     </div>
                 </div>
