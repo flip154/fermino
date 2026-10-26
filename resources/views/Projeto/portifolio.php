@@ -106,7 +106,7 @@
                         <h3>Login Básico</h3>
                         <p>
                             Sistema desenvolvido para praticar
-                            inserção de dados em banco de dados e manipulação de dados.
+                            inserção de dados.
                         </p>
                         <div class="tecnologias">
                             <span>HTML</span>
