@@ -48,11 +48,19 @@
     }
 
     $lucio = new Personagem("Lúcio", 170, 15);
+
+    $lucio->atacar();
+
     $lucio->setVida(50);
+
     $darius = new Personagem("Darius", 250, 13);
     $goat = new Personagem("Billy", 300, 10);
 
-    $lucio->atacar();
+    $personagens = [$lucio, $darius, $goat];
+
+    foreach($personagens as $p){
+        $p->atacar();
+    }
 
     class Guerreiro extends Personagem{
         public function defender(){
