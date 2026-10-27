@@ -3,19 +3,6 @@
 
     class Personagem{
         public $nome;
-        public $vida = 100;
-
-        public function atacar(){
-            echo "$this -> nome realizou um ataque!";
-        }
-    }
-
-    $personagem1 = new Personagem();
-    $personagem1->nome = "Felipe";
-    $personagem1->atacar();
-
-    class Personagen{
-        public $nome;
         public $vida;
         public $dano;
 
@@ -30,12 +17,23 @@
         public function atacar(){
             echo "$this->nome realizou um ataque!";
         }
-            
-        
     }
 
-    $personagem = new Personagen("Felipe", 150, 12);
-    $personagem1 = new Personagen("Thiago", 250, 8);
-    $personagem2 = new Personagen("Bozze", 100, 20);
+    $personagem = new Personagem("Felipe", 150, 12);
+    $personagem1 = new Personagem("Thiago", 250, 8);
+    $personagem2 = new Personagem("Bozze", 100, 20);
+
+    $personagem->atacar();
+
+    class Guerreiro extends Personagem{
+        public function defender(){
+            echo "$this->nome Levantou o escudo";
+        }
+    }
+
+    $gurreiro = new Guerreiro("personagem", 100, 10);
+
+    $guerreiro->atacar(); // metodo herdado
+    $guerreiro->defender(); //metodo proprio
     
 ?>
