@@ -92,14 +92,15 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="../Projeto/idade.php" class="link-projeto">
+                    <a href="../resources/views/Projeto/idade.php" class="link-projeto">
                         Ver Projeto:
                     </a>
                     </div>
 
                     <div class="peojetos-container">
                         <div class="projeto-card">
-                        <div class="projeto-numero">
+                        <div class="projeto-numero
+                        ">
                             02
                         </div>
 
