@@ -97,13 +97,25 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro de Maquina</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form method="$_POST">
+            <p>
+            <input type="text" id="nome" name="nome">
+            <input type="text" id="tipo" name="tipo">
+            <input type="number" id="quantidade" name="quantidade">
+            </p>
+            
+            <p>
+                <button type="submit"> Cadastrar Maquina </button>
+            </p>
+        </form>
+    </div>
 </body>
 </html>
