@@ -165,6 +165,28 @@
             </div>
         </section>
 
+        <div class="peojetos-container">
+                        <div class="projeto-card">
+                        <div class="projeto-numero
+                        ">
+                            02
+                        </div>
+
+                        <h3>Sistema de cadastro de maquinas</h3>
+                        <p>
+                            Sistema desenvolvido para entender a 
+                            programação orientada a objetos.
+                        </p>
+                        <div class="tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+                        </div>
+                        <a href="../Projeto/poo2.php" class="link-projeto">
+                        Ver Projeto:
+                        </a>
+                    </div>
+
         <section id="contato" class=" secao secao-destaque">
             <h2 class="titulo-secao"></h2>
                 <p class="subtitulo-secao">
@@ -172,7 +194,9 @@
                 </p>
                 <div class="contato-container">
                     <div class="contato-item">
-                        <h3>Github link: <a href="https://github.com/flip154"></a></h3>
+                        <h3>
+                            <a href="https://github.com/flip154">Github Link</a>
+                        </h3>
                         <p></p>
                     </div>
                 </div>
