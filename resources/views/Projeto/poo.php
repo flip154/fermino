@@ -65,7 +65,7 @@ class Guerreiro extends Personagem {
     }
 
       public function atacar(): void {
-        echo "$this->nome atacou com um axe!";
+        echo "$this->nome atacou com um Machado!";
     }
 
         public function curar(): void {
