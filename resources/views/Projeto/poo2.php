@@ -111,11 +111,16 @@
             <input type="text" id="tipo" name="tipo">
             <input type="number" id="quantidade" name="quantidade">
             </p>
-            
+
             <p>
                 <button type="submit"> Cadastrar Maquina </button>
             </p>
         </form>
+<p>
+        <?php 
+            
+        ?>
+</p>
     </div>
 </body>
 </html>
