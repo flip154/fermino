@@ -107,9 +107,9 @@
     <div class="container">
         <form method="$_POST">
             <p>
-            <input type="text" id="nome" name="nome">
-            <input type="text" id="tipo" name="tipo">
-            <input type="number" id="quantidade" name="quantidade">
+            <input type="text" id="nomeMaquina" name="nomeMaquina">
+            <input type="text" id="tipoMaquina" name="tipoMaquina">
+            <input type="number" id="quantidadeMaquina" name="quantidadeMaquina">
             </p>
 
             <p>
