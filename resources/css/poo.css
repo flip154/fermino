@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    line-height: 1.6;
+}
+
+.container{
+    background-color: rgb(12, 0, 122);
+    color: aliceblue;
+    width: 350px;
+    padding: 40px;
+    text-align: center;
+    border: solid 8px;
+    border-radius: 10px;
+    border-color: rgb(0, 102, 255);
+}
