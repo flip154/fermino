@@ -1,22 +1,24 @@
-<!-- <?php
+<?php 
 
-// function apresentarSistema() {
-//     echo "Bem vindo ao Help Desk";
-// }
+    function apresentarSistema() {
+        echo "Bem vindo(a) ao Hekp Desk!";
+    }
 
-// apresentarSistema();
+    apresentarSistema();
 
-// function AbrirChamadado($nome, $problema) {
-//     echo "$nome Abriu um chamado: $problema";
-// }
-    
-// AbrirChamadado("Thiago", "Impresora nao funciona");
+    function abrirChamado($nome, $problema) {
+        echo "$nome abriu um chamado: $problema";
+    }
 
-// function contarchamados($quantidade){
-//     return "existem $quantidade chamados registrados";
-// }
+    //$nome = $_POST["nome"];
+    //$problema = $_POST["problema"];
 
-// $resultado = contarchamados(5);
-//    echo $resultado; 
+    abrirChamado("Lucas", "Impressora não funciona");
 
-?> -->
+    function contarChamados($quantidade){
+        return "Existem $quantidade chamados registrados";
+    }
+
+    $resultado = contarChamados(5);
+    //echo $resultado;
+?>

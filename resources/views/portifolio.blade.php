@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/../fermino/resources/css/index.css">
     <title>Atividades DS</title>
+
+    @vite(['resources/css/index.css'])
+
 </head>
 <body>
     <header>
@@ -92,7 +95,7 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="../resources/views/Projeto/idade.php" class="link-projeto">
+                    <a href="{{ route('') }}" class="link-projeto">
                         Ver Projeto:
                     </a>
                     </div>
