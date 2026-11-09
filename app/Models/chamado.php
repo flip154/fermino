@@ -12,7 +12,7 @@ class Chamado{
         if (!file_exists($arquivo)) {
             file_put_contents($arquivo, "[]");
         }
-
+        // chamado
         // Ler o arquivo
         $conteudo = file_get_contents($arquivo);
 
