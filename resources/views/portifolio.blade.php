@@ -117,9 +117,9 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="../resources/views/Projeto/login-basico.php" class="link-projeto">
+                        <a href="{{ route('helpdesk') }}" class="link-projeto">
                         Ver Projeto:
-                        </a>
+                    </a>
                     </div>
 
                     <div class="peojetos-container">
@@ -138,9 +138,9 @@
                             <span>PHP</span>
                             <span>MySQL</span>
                         </div>
-                        <a href="../resources/views/Projeto/json.php" class="link-projeto">
-                            Ver Projeto:
-                        </a>
+                        <a href="{{ route('helpdesk') }}" class="link-projeto">
+                        Ver Projeto:
+                    </a>
                     </div>
 
                     <div class="peojetos-container">
@@ -158,9 +158,9 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="../Projeto/notas.php" class="link-projeto">
-                            Ver Projeto:
-                        </a>
+                        <a href="{{ route('helpdesk') }}" class="link-projeto">
+                        Ver Projeto:
+                    </a>
                         </div>
                         </div>
                     </div>
@@ -185,9 +185,9 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="../Projeto/poo2.php" class="link-projeto">
+                        <a href="{{ route('helpdesk') }}" class="link-projeto">
                         Ver Projeto:
-                        </a>
+                    </a>
                     </div>
 
         <section id="contato" class=" secao secao-destaque">
