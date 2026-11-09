@@ -95,7 +95,7 @@
                         <span>CSS</span>
                         <span>PHP</span>
                     </div>
-                    <a href="{{ route('helpdesk') }}" class="link-projeto">
+                    <a href="{{ route('idade') }}" class="link-projeto">
                         Ver Projeto:
                     </a>
                     </div>
@@ -117,7 +117,7 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="{{ route('helpdesk') }}" class="link-projeto">
+                        <a href="{{ route('login') }}" class="link-projeto">
                         Ver Projeto:
                     </a>
                     </div>
@@ -138,7 +138,7 @@
                             <span>PHP</span>
                             <span>MySQL</span>
                         </div>
-                        <a href="{{ route('helpdesk') }}" class="link-projeto">
+                        <a href="{{ route('json') }}" class="link-projeto">
                         Ver Projeto:
                     </a>
                     </div>
@@ -158,7 +158,7 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="{{ route('helpdesk') }}" class="link-projeto">
+                        <a href="{{ route('notas') }}" class="link-projeto">
                         Ver Projeto:
                     </a>
                         </div>
