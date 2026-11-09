@@ -185,10 +185,10 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="{{ route('helpdesk') }}" class="link-projeto">
+                        <a href="{{ route('poo') }}" class="link-projeto">
                         Ver Projeto:
                     </a>
-                    </div>
+        </div>
 
         <section id="contato" class=" secao secao-destaque">
             <h2 class="titulo-secao"></h2>
