@@ -26,3 +26,9 @@ U = Update
 D = Delete
 
 PHP = Hypertest Preprocessor 
+
+INERTIA = Ponte entre back e front
+
+VITE = Processa e compila o front
+
+LARAVEL = Backend | React = Frontend
